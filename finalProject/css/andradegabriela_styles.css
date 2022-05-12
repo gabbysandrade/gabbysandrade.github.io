@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+/*
+   ITSE 1301 Web Design Tools
+   Final Project
+   
+   Filename: andradegabriela_styles.css
+
+*/
+
+/* Styles for the Floração Design homepage */
+
+/* Article Styles */
+article#welcome {
+    padding-top: 5%;
+    background: rgb(12, 91, 87);
+}
+
+article#port_preview {
+    background-image: url(../images/bg1.png);
+    text-align: center;
+}
+
+article#port_preview h2 {
+    background: rgba(218, 234, 232, 0.5);
+}
+
+/* Portfolio Slide Deck Styles */
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides:first-of-type {
+    display:block;
+}
+
+.slideImg {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+div#dots {
+    text-align:center;
+    margin-top: 2%;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading Animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Contact Form Styles */
+form#contact {
+  background: rgb(8, 143, 143);
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+fieldset {
+  width: 100%;
+}
+
+legend {
+  color: rgb(12, 91, 87);
+  background-color: rgb(224, 196, 30);
+}
+
+label {
+  color: rgb(218, 234, 232);
+}
+
+div.formInput {
+  width: 100%;
+  padding: 2%;
+  clear: both;
+}
+div.formPaired {
+  width: 40%;
+  padding: 2%;
+  box-sizing: content-box;
+  float: left;
+}
+
+input {
+  min-width: 200px;
+  min-height: 25px;
+}
+
+textarea {
+  display: block;
+  width: 90%;
+  height: 100px;
+}
+
+input:valid {
+  background: rgb(220, 255, 220) url(../images/valid.png) bottom right/contain no-repeat;
+}
+
+input:focus:invalid {
+  background: rgb(255, 232, 233) url(../images/invalid.png) bottom right/contain no-repeat;
+}
+
+div.formButton {
+  align-content: center;
+}
+
+div.formButton button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===============================
+	Mobile and Tablet Devices: 0 to 796px 
+   ===============================
+*/
+@media only screen and (max-width:796px) {
+  nav.horizontal ul {
+    display: none;
+  }
+   
+  nav.horizontal ul, nav.horizontal li, nav.horizontal a {
+    width: 100%;
+  }
+   
+  form#contact {
+    width: 90%;
+  }
+   
+  div.formPaired {
+    width: 100%;
+  }
+}

@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/*
+   ITSE 1301 Web Design Tools
+   Final Project
+   
+   Filename: andradegabriela_base.css
+
+*/
+
+
+/* Basic styles to be used with all devices and under all conditions */
+
+article, aside, figcaption, figure,
+footer, header, main, nav, section { 
+   display: block;
+}
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, nav a, ol, p, section, span, ul,
+table, tr, td, th, col, colgroup {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+
+/* Set the default page element styles */
+
+/* Default Body and Header Styles */
+html {
+   background: rgb(218, 234, 232);
+}
+
+body {
+   line-height: 1.2em;
+   font-family: Helvetica, Arial, Verdana, sans-serif;
+   box-shadow: rgba(51,51,51,0.5) 5px 0px 15px, rgba(51,51,51,0.5) -5px 0px 15px;
+}
+
+header {
+   background: rgb(218, 234, 232);
+}
+
+h1 {
+   font-size: 5em;
+   font-weight: bold;
+   color: rgb(224, 196, 30);
+   line-height: 1.25em;
+   padding-bottom: 10px;
+}
+
+h2 {
+   font-size: 3em;
+   font-weight: bold;
+   color: rgb(12, 91, 87);
+   line-height: 1.25em;
+}
+
+h3 {
+   font-size: 2em;
+   font-weight: normal;
+   color: rgb(218, 234, 232);
+   line-height: 1.5em;
+}
+
+article {
+   padding: 5%;
+}
+   
+
+/* Default Navigation Styles */
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav.horizontal li {
+   background: rgb(8, 143, 143);
+   text-align: center;
+   letter-spacing: 0.25em;
+   font-variant: small-caps;
+}
+
+
+nav a {
+   text-decoration: none;
+   font-size: 1.6em;
+}
+
+nav a:active, nav a:link, nav a:visited {
+   color: white;
+}
+
+nav a:hover {
+   color: rgb(8, 143, 143);
+   font-weight: bold;
+   background: border-box rgb(218, 234, 232);
+}
+
+
+/* Default Footer Styles */
+footer {
+   text-align: center;
+   color: rgb(12, 91, 87);
+}
+
+/* ===============================
+	Mobile and Tablet Devices: 0 to 796px 
+   ===============================
+*/
+@media only screen and (max-width:796px) {
+   nav.horizontal ul {
+        display: none;
+   }
+    
+   nav.horizontal li {
+      width: 100%;
+   }
+    
+   a#navicon:hover+ul, nav.horizontal ul:hover {
+        display: block;
+   }
+   
+   h1 {
+      font-size: 3em;
+   }
+   
+   h2 {
+      font-size: 2.5em;
+   }
+   
+   h3 {
+      font-size: 1.5em;
+   }
+}
+  
+  /* ============================================
+	Desktop Devices: 797px or more 
+   ============================================
+*/
+@media only screen and (min-width:797px) {
+   a#navicon {
+        display: none;
+    }
+    nav.horizontal ul {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+    }
+    nav.horizontal ul li {
+        -webkit-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+}

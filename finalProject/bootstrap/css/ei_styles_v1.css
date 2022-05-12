@@ -1,0 +1,200 @@
+/*
+    Bootstrap Assignment
+       
+    Emergy Incorporated Home Page
+    Author: Gabriela Andrade
+    Date:   3/11/2022
+   
+    Filename: ei_styles.css
+
+   This file contains the screen styles used with the Emergy
+   Incorporated homepage.
+
+*/
+
+
+/* Styles for ALL screens */
+
+
+/* Navigation Styles */
+
+nav {
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+    background-image: url(../images/bluesky.jpg); /*Photo by Carmine Savarese on Unsplash*/
+    background-size: cover;
+    box-shadow: rgb(23,23,23) 0px 2px 10px;
+    box-shadow: rgba(51,51,51,0.75) 0px 10px 15px;
+}
+
+a.navbar-brand {}
+
+
+.nav-link {
+    color: rgb(147,203,111);
+    font-size: 1.75em;
+}
+
+a.nav-link:hover {
+    color: rgb(74,102,55);
+}
+
+a#navbarDropdownMenuLink:focus {
+    color: rgb(74,102,55);
+}
+
+div.dropdown-menu {
+    background: rgb(74,102,55);
+    border: none;
+}
+
+a.dropdown-item {
+    color: white;
+}
+
+a.dropdown-item:hover {
+    background: rgb(147,203,111);
+    color: white;
+}
+
+/*Body Styles */
+body {
+    background-image: url(../images/solarimg2.jpg)
+}
+
+/*Main Content Card Styles */
+
+.btn-primary {
+    background-color: rgb(147,203,111);
+    border-color: rgb(147,203,111);
+}
+
+.btn-primary:hover {
+    background-color: rgb(74,102,55);
+    border-color: rgb(74,102,55);
+}
+
+div#mainbg {
+    padding-top: 1.25em;
+}
+
+div#main {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1.25em;
+}
+
+.card h1 {
+    color: rgb(147,203,111);
+}
+
+div#banner {
+    max-width: 90%;
+}
+
+.card h4 {
+    color: rgb(147,203,111);
+}
+
+/* Article Card Styles */
+
+div#articles {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+    
+
+.card-article {
+    margin-bottom: 1.25em;
+}
+
+div#primary p {
+    font-size: 1.5em;
+}
+
+.photo-credit {
+    color: rgba(51, 51, 51, 0.8);
+    font-style: italic;
+    font-size: 0.5em;
+}
+
+.card-link {
+    color: rgb(147,203,111);
+}
+
+a.card-link:hover {
+    color: rgb(74,102,55);
+}
+
+/*Footer Styles */
+footer {
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background: rgba(255,255,255,0.25);
+    text-align: center;
+}
+
+
+
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
+*/
+@media only screen and (max-width:480px) {
+    div#mobile_hide {
+        display: none;
+    }
+    a.navbar-brand {
+        max-width: 75%;
+    }
+    
+    p#hide1 {
+        display: none;
+    }
+    p#hide2 {
+        display: none;
+    }
+    p#hide3 {
+        display: none;
+    }
+}
+
+/* =================================================
+	Tablet Styles: 481 pixels - 962 pixels
+   =================================================
+*/
+@media only screen and (min-width:481px) and (max-width:962px) {
+    a.navbar-brand {
+        max-width: 80%;
+    }
+    
+    p#hide1 {
+        display: none;
+    }
+    p#hide2 {
+        display: none;
+    }
+    p#hide3 {
+        display: none;
+    }
+}
+    
+/* =================================================
+	Desktop Styles: 963 pixels or greater
+   =================================================
+*/
+@media only screen and (min-width:963px) {
+    nav {
+        max-height: 200px;
+    }
+    
+    a.navbar-brand {
+        max-height: 180px;
+    }
+    
+    img#logo {
+        max-height: 180px;
+    }
+}

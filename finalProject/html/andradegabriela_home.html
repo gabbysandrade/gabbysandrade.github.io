@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--
+      ITSE 1301 Final Project
+
+      Floração Design
+      Author: Gabriela Andrade
+      Date: 5/10/2022
+
+      Filename: andradegabriela_home.html
+
+   -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../css/andradegabriela_base.css" rel=stylesheet />
+	<link href="../css/andradegabriela_layout.css" rel=stylesheet />
+	<link href="../css/andradegabriela_styles.css" rel=stylesheet />
+	<script src="../js/andradegabriela_slides.js" ></script>
+	<script src="../js/andradegabriela_form.js" ></script>
+	<title>ITSE 1301 - Gabriela Andrade - Final Project - Home Page</title>
+
+</head>
+
+<body>
+	<header>
+		<div id="banner">
+			<img src="../images/flor_logo_rs.png" alt="Home" id="logoicon"/>
+			<img src="../images/flor_title_rs.png" alt="Floração Design" id="title"/>
+		</div>
+		<nav class="horizontal">
+			<a href="#" id="navicon"><img src="../images/navicon1_rs.png" alt="" /></a>
+			<ul class="row">
+				<li><a href="andradegabriela_home.html">home</a></li>
+				<li><a href="andradegabriela_about.html">about the designer</a></li>
+				<li><a href="andradegabriela_portfolio.html">portfolio</a></li>
+				<li><a href="andradegabriela_workexp.html">work experience</a></li>
+				<li><a href="andradegabriela_linksref.html">reference links</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<article id="welcome">
+		<h1> Welcome to Floração Design! </h1>
+		<h3>This website features a portfolio of original websites and graphic designs by Austin-based Brazilian designer Gabriela Andrade. </h3>
+	</article>
+	
+	<article id="port_preview">
+		<h2> Tour the Portfolio </h2>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<a href="http://www.austinmunchies.wordpress.com" target="_blank">
+				<img class="slideImg" src="../images/psd_austinmunchies.png" /></a>
+			</div>
+			<div class="mySlides fade">
+				<a href="../bootstrap/html/ei_home.html" target="_blank">
+				<img class="slideImg" src="../images/psd_emergyinc.png" /></a>
+			</div>
+			<div class="mySlides fade">
+				<a href="andradegabriela_portfolio.html">
+				<img class="slideImg" src="../images/psd_moresoon.png" />
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<div id="dots">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	</article>
+	
+	<form id="contact" action="andradegabriela_home.html" method="post" enctype="multipart/form-data">
+		<fieldset id="contactRequest">
+			<legend>Contact the Designer</legend>
+			<div class="formPaired">
+				<label for="fname">First Name*</label>
+				<input name="contactFname" id="fname" type="text" placeholder="First Name" required/>
+			</div>
+			<div class="formPaired">
+				<label for="lname">Last Name*</label>
+				<input name="contactLname" id="lname" type="text" placeholder="Last Name" required/>
+			</div>
+			<div class="formInput">
+				<label for="org">Company</label>
+				<input name="contactOrg" id="org" type="text" placeholder="Company/Organization"/>
+			</div>
+			<div class="formPaired">
+				<label for="mail">Email*</label>
+				<input name="contactEmail" id="mail" type="email" placeholder="youremail@example.com" required/>
+			</div>
+			<div class="formPaired">
+				<label for="phone">Phone</label>
+				<input name="contactPhone" id="phone" type="tel" placeholder="(888) 888-8888" maxlength="13" pattern="\(\d{3}\)[ ]?\d{3}[-]?\d{4}"/>
+			</div>
+			<div class="formInput">
+				<label for="message">Message*</label>
+				<textarea name="contactMessage" id="message" placeholder="Type your message here." maxlength="750" required></textarea>
+			</div>
+			<div class="formButton">
+				<button type="submit">
+					<h4>Submit</h4>
+				</button>
+			</div>
+		</fieldset>
+	</form>
+	
+	<footer>
+		&copy; Gabriela Andrade | All rights reserved.
+	</footer>
+</body>
+
+</html>
