@@ -33,6 +33,6 @@ $headers = "From: $email_from \r\n";
 mail($to,$email_subject,$email_body,$headers);
 
 //Redirect to Homepage
-header('Location: ../html/andradegabriela_home.html');
+header('Location: ../html/index.html');
 
 ?>
