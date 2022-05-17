@@ -39,7 +39,7 @@ article#about p {
 
 /* Interactive Map Styles */
 div#livemap {
-   width: 90%;
+   width: 800px;
    margin-left: auto;
    margin-right: auto;
    height: 1100px;
@@ -47,11 +47,9 @@ div#livemap {
 }
 
 img#mapImage {
-   display: block;
-   width: 800px;
+   width: 100%;
    margin-left: auto;
    margin-right: auto;
-   position: relative;
 }
 
 .mapInfo {
@@ -102,32 +100,32 @@ img.flag {
 
 a#flagBR {
    top: 20%;
-   left: 41%;
+   left: 35%;
 }
 
 a#flagHK {
    top: 14.5%;
-   left: 65%;
+   left: 76%;
 }
 
 a#flagPR {
    top: 14.5%;
-   left: 33.5%;
+   left: 22%;
 }
 
 a#flagHI {
    top: 13.5%;
-   left: 22%;
+   left: 3%;
 }
 
 a#flagFL {
    top: 14%;
-   left: 35%;
+   left: 24.5%;
 }
 
 a#flagATX {
    top: 14%;
-   left: 32%;
+   left: 19.5%;
 }
 
 
@@ -178,13 +176,12 @@ a#flagATX {
 }
 
 
-
-/* =================================================
-	Mobile and Tablet Styles: 0 pixels - 800 pixels
-   =================================================
+/* ==================================================
+	Mobile and Tablet Map Alternative: 1000 px or less
+   ==================================================
 */
-@media only screen and (max-width: 799px) {
-    div#livemap {
+@media only screen and (max-width:1000px) {
+   div#livemap {
       display: none;
     }
     
@@ -201,6 +198,19 @@ a#flagATX {
       padding-bottom: 10px;
       text-align: center;
    }
+
+   .infoText {
+      font-size: 0.9em;
+   }
+}
+
+
+
+/* =================================================
+	Mobile and Tablet Styles: 0 pixels - 800 pixels
+   =================================================
+*/
+@media only screen and (max-width: 799px) {
     
     nav.horizontal ul {
       display: none;
@@ -209,14 +219,13 @@ a#flagATX {
    nav.horizontal ul, nav.horizontal li, nav.horizontal a {
       width: 100%;
    }
-   
+
    .infoImg {
       width: 100%;
    }
    
    .infoText {
       width: 100%;
-      font-size: 0.9em;
       text-align: center;
       padding-top: 15px;
       padding-bottom: 15px;
@@ -228,13 +237,8 @@ a#flagATX {
    =================================================
 */
 @media only screen and (min-width:800px) {
-   article#oops {
-      display: none;
-   }
-   
    .infoText {
       width: 80%;
-      font-size: 1.2em;
       float: left;
       padding: 15px;
    }
@@ -242,6 +246,20 @@ a#flagATX {
    .infoImg {
       width: 20%;
       float: left;
+   }
+}
+
+/* =================================================
+	Interactive Map display: 1000 pixels or greater
+   =================================================
+*/
+@media only screen and (min-width:1000px) {
+   article#oops {
+      display: none;
+   }
+
+   .infoText {
+      font-size: 1.2em;
    }
 }
 
