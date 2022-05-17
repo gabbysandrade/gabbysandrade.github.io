@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
 	<!--
-      ITSE 1301 Final Project
-
       Floração Design
       Author: Gabriela Andrade
-      Date: 5/10/2022
+      Date: 5/16/2022
 
       Filename: index.html
 
@@ -17,7 +15,6 @@
 	<link href="../css/floracao_layout.css" rel=stylesheet />
 	<link href="../css/floracao_styles.css" rel=stylesheet />
 	<script src="../js/slides.js" ></script>
-	<script src="../js/form.js" ></script>
 	<title>ITSE 1301 - Gabriela Andrade - Final Project - Home Page</title>
 
 </head>
@@ -69,41 +66,6 @@
 			<span class="dot" onclick="currentSlide(3)"></span>
 		</div>
 	</article>
-	
-	<form id="contact" action="index.html" method="post" enctype="multipart/form-data">
-		<fieldset id="contactRequest">
-			<legend>Contact the Designer</legend>
-			<div class="formPaired">
-				<label for="fname">First Name*</label>
-				<input name="contactFname" id="fname" type="text" placeholder="First Name" required/>
-			</div>
-			<div class="formPaired">
-				<label for="lname">Last Name*</label>
-				<input name="contactLname" id="lname" type="text" placeholder="Last Name" required/>
-			</div>
-			<div class="formInput">
-				<label for="org">Company</label>
-				<input name="contactOrg" id="org" type="text" placeholder="Company/Organization"/>
-			</div>
-			<div class="formPaired">
-				<label for="mail">Email*</label>
-				<input name="contactEmail" id="mail" type="email" placeholder="youremail@example.com" required/>
-			</div>
-			<div class="formPaired">
-				<label for="phone">Phone</label>
-				<input name="contactPhone" id="phone" type="tel" placeholder="(888) 888-8888" maxlength="13" pattern="\(\d{3}\)[ ]?\d{3}[-]?\d{4}"/>
-			</div>
-			<div class="formInput">
-				<label for="message">Message*</label>
-				<textarea name="contactMessage" id="message" placeholder="Type your message here." maxlength="750" required></textarea>
-			</div>
-			<div class="formButton">
-				<button type="submit">
-					<h4>Submit</h4>
-				</button>
-			</div>
-		</fieldset>
-	</form>
 	
 	<footer>
 		&copy; Gabriela Andrade | All rights reserved.
