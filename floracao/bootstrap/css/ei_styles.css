@@ -180,6 +180,59 @@ a.card-link:hover {
     color: rgb(74,102,55);
 }
 
+/* Service Banner Styles */
+
+div#service_banner {
+    background: url(../images/bluesky.jpg);
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+div#service_banner h2 {
+    color: white;
+    font-size: 3em;
+    padding-left: 1%;
+}
+
+div#service_banner a {
+    text-decoration: none;
+}
+
+div#service_banner div.card {
+    min-height: 300px;
+}
+
+div#solar {
+    background: url(../images/solarimg3.jpg) no-repeat border-box;
+}
+
+div#ev {
+    background: url(../images/gasimg2.jpg) no-repeat border-box;
+}
+
+div#wind {
+    background: url(../images/windimg3.jpg) no-repeat border-box;
+}
+
+div#green {
+    background: url(../images/sciimg2.jpg) no-repeat border-box;
+}
+
+div.choice {
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+    max-height: 15%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+p.choicetext {
+    color: rgb(74,102,55);
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+
 /*Footer Styles */
 footer {
     margin-top: 1em;
