@@ -235,10 +235,9 @@ p.choicetext {
 
 /*Footer Styles */
 footer {
-    margin-top: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
-    background: rgba(255,255,255,0.25);
+    background: url(../images/ei_bg.jpg) no-repeat;
     text-align: center;
 }
 
