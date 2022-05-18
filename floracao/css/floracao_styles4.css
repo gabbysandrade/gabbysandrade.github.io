@@ -29,6 +29,11 @@ div#summary {
 div#summaryLinks {
    width: 35%;
    float: left;
+   display: flex;
+   display: -webkit-flex;
+   flex-flow: row wrap;
+   -webkit-flex-flow: row wrap;
+   justify-content: center;
 }
 
 img#myname {
@@ -36,15 +41,24 @@ img#myname {
 }
 
 img.linkIcon {
-   width: 29.3%;
-   padding-left: 2%;
-   padding-right: 2%;
+   max-width: 50px;
+   max-height: 50px;
+}
+
+img.linkIcon:first-of-type {
+   margin-right: 5px;
+}
+
+img.linkIcon:last-of-type{
+   margin-left: 5px;
 }
 
 div#summaryText {
    width:60%;
    float:left;
    color: rgb(12, 91, 87);
+   padding-top: 1.5%;
+   padding-left: 1%;
 }
 
 div#summaryText h4 {
@@ -60,9 +74,9 @@ footer {
    color: rgb(12, 91, 87);
 }
 
-/* ===============================
+/* =====================================
 	Mobile and Tablet Devices: 0 to 796px 
-   ===============================
+   =====================================
 */
 @media only screen and (max-width:796px) {
    nav.horizontal ul {
@@ -71,5 +85,23 @@ footer {
    
    nav.horizontal ul, nav.horizontal li, nav.horizontal a {
       width: 100%;
+   }
+
+   div#summaryLinks, div#summaryText {
+      width: 100%;
+   }
+}
+
+/* =========================================
+	Large Desktop Screens: 1000px and greater
+   =========================================
+*/
+@media only screen and (min-width:1000px) {
+   img.linkIcon:first-of-type {
+      margin-right: 15px;
+   }
+   
+   img.linkIcon:last-of-type{
+      margin-left: 15px;
    }
 }
