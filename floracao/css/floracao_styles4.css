@@ -1,8 +1,7 @@
 @charset "utf-8";
 
 /*
-   ITSE 1301 Web Design Tools
-   Final Project
+   Floração Design Website
    
    Filename: floracao_styles4.css
 
@@ -10,10 +9,55 @@
 
 /* Styles for the Floração Design Work Experience page */
 
-/* Article styles */
-article {
+
+/* Body styles */
+body {
     background-image: url(../images/bg1.png);
-    justify-content: center;
+}
+
+/* Summary styles */
+div#summary {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+   padding: 2%;
+   background: rgb(218, 234, 232);
+   border-radius: 15px 15px 15px 15px;
+}
+
+div#summaryLinks {
+   width: 35%;
+   float: left;
+}
+
+img#myname {
+   width: 100%;
+}
+
+img.linkIcon {
+   width: 29.3%;
+   padding-left: 2%;
+   padding-right: 2%;
+}
+
+div#summaryText {
+   width:60%;
+   float:left;
+   color: rgb(12, 91, 87);
+}
+
+div#summaryText h4 {
+   font-size: 1.3em;
+}
+
+div#summaryText hr {
+   border-color: rgb(224, 196, 30);
+}
+
+/* Footer Styles */
+footer {
+   color: rgb(12, 91, 87);
 }
 
 /* ===============================
