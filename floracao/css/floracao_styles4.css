@@ -15,8 +15,8 @@ body {
     background-image: url(../images/bg1.png);
 }
 
-/* Summary styles */
-div#summary {
+/* Snapshot styles */
+div#snapshot {
    width: 80%;
    margin-left: auto;
    margin-right: auto;
@@ -26,7 +26,7 @@ div#summary {
    border-radius: 15px 15px 15px 15px;
 }
 
-div#summaryLinks {
+div#snapshotLinks {
    width: 35%;
    float: left;
    display: flex;
@@ -53,21 +53,40 @@ img.linkIcon:last-of-type{
    margin-left: 5px;
 }
 
-div#summaryText {
+div#snapshotText {
    width:60%;
    float:left;
    color: rgb(12, 91, 87);
    padding-top: 1.5%;
-   padding-left: 1%;
+   padding-left: 3%;
 }
 
-div#summaryText h4 {
+div#snapshotText h4 {
    font-size: 1.3em;
 }
 
-div#summaryText hr {
+div#snapshotText hr {
    border-color: rgb(224, 196, 30);
 }
+
+div.snap {
+   display: flex;
+   display: -webkit-flex;
+   flex-flow: row wrap;
+   -webkit-flex-flow: row wrap;
+   font-size: 1.2em;
+   margin-bottom: 2%;
+}
+
+img.snapImg {
+   max-width: 10%;
+}
+
+p.snapText {
+   width: 85%;
+   padding-left: 2%;
+}
+
 
 /* Footer Styles */
 footer {
@@ -87,7 +106,7 @@ footer {
       width: 100%;
    }
 
-   div#summaryLinks, div#summaryText {
+   div#snapshotLinks, div#snapshotText {
       width: 100%;
    }
 }
@@ -100,7 +119,7 @@ footer {
    img.linkIcon:first-of-type {
       margin-right: 15px;
    }
-   
+
    img.linkIcon:last-of-type{
       margin-left: 15px;
    }
