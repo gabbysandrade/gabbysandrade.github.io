@@ -1,8 +1,7 @@
 @charset "utf-8";
 
 /*
-   ITSE 1301 Web Design Tools
-   Final Project
+   Floração Design Website
    
    Filename: floracao_styles4.css
 
@@ -10,15 +9,93 @@
 
 /* Styles for the Floração Design Work Experience page */
 
-/* Article styles */
-article {
+
+/* Body styles */
+body {
     background-image: url(../images/bg1.png);
-    justify-content: center;
 }
 
-/* ===============================
+/* Snapshot styles */
+div#snapshot {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 2%;
+   padding: 2%;
+   background: rgb(218, 234, 232);
+   border-radius: 15px 15px 15px 15px;
+}
+
+div#snapshotLinks {
+   width: 35%;
+   float: left;
+   display: flex;
+   display: -webkit-flex;
+   flex-flow: row wrap;
+   -webkit-flex-flow: row wrap;
+   justify-content: center;
+}
+
+img#myname {
+   width: 100%;
+}
+
+img.linkIcon {
+   max-width: 50px;
+   max-height: 50px;
+}
+
+img.linkIcon:first-of-type {
+   margin-right: 5px;
+}
+
+img.linkIcon:last-of-type{
+   margin-left: 5px;
+}
+
+div#snapshotText {
+   width:60%;
+   float:left;
+   color: rgb(12, 91, 87);
+   padding-top: 1.5%;
+   padding-left: 3%;
+}
+
+div#snapshotText h4 {
+   font-size: 1.3em;
+}
+
+div#snapshotText hr {
+   border-color: rgb(224, 196, 30);
+}
+
+div.snap {
+   display: flex;
+   display: -webkit-flex;
+   flex-flow: row wrap;
+   -webkit-flex-flow: row wrap;
+   font-size: 1.2em;
+   margin-bottom: 2%;
+}
+
+img.snapImg {
+   max-width: 10%;
+}
+
+p.snapText {
+   width: 85%;
+   padding-left: 2%;
+}
+
+
+/* Footer Styles */
+footer {
+   color: rgb(12, 91, 87);
+}
+
+/* =====================================
 	Mobile and Tablet Devices: 0 to 796px 
-   ===============================
+   =====================================
 */
 @media only screen and (max-width:796px) {
    nav.horizontal ul {
@@ -27,5 +104,23 @@ article {
    
    nav.horizontal ul, nav.horizontal li, nav.horizontal a {
       width: 100%;
+   }
+
+   div#snapshotLinks, div#snapshotText {
+      width: 100%;
+   }
+}
+
+/* =========================================
+	Large Desktop Screens: 1000px and greater
+   =========================================
+*/
+@media only screen and (min-width:1000px) {
+   img.linkIcon:first-of-type {
+      margin-right: 15px;
+   }
+
+   img.linkIcon:last-of-type{
+      margin-left: 15px;
    }
 }
