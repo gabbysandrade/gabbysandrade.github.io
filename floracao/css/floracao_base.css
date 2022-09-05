@@ -210,6 +210,10 @@ footer {
    a#navicon:hover+ul, nav.horizontal ul:hover {
         display: block;
    }
+
+   nav.horizontal ul, nav.horizontal li, nav.horizontal a {
+      width: 100%;
+    }
    
    h1 {
       font-size: 3em;
@@ -242,4 +246,5 @@ footer {
         -webkit-flex: 1 1 auto;
         flex: 1 1 auto;
     }
+    
 }

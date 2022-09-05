@@ -1,16 +1,14 @@
 @charset "utf-8";
 
-/*
-   ITSE 1301 Web Design Tools
-   Final Project
-   
-   Filename: floracao_styles.css
-
-*/
+/***************************
+Author: Gabriela Andrade
+Floração Home Styles
+Purpose: Establishes styles for Floração homepage.
+***************************/
 
 /* Styles for the Floração Design homepage */
 
-/* Article Styles */
+/* Welcome Message Styles */
 #welcome {
   padding-top: 5%;
   background: rgb(12, 91, 87);
@@ -21,109 +19,4 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-}
-
-article#port_preview {
-    background-image: url(../images/bg1.png);
-    text-align: center;
-}
-
-article#port_preview h2 {
-    background: rgba(218, 234, 232, 0.5);
-}
-
-/* Portfolio Slide Deck Styles */
-* {box-sizing:border-box}
-
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  margin-top: 2%;
-}
-
-.mySlides {
-  display: none;
-}
-
-.mySlides:first-of-type {
-    display:block;
-}
-
-.slideImg {
-    vertical-align: middle;
-    width: 100%;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.prev {
-    left: 0;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-div#dots {
-    text-align:center;
-    margin-top: 2%;
-}
-
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading Animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* ===============================
-	Mobile and Tablet Devices: 0 to 796px 
-   ===============================
-*/
-@media only screen and (max-width:796px) {
-  nav.horizontal ul {
-    display: none;
-  }
-   
-  nav.horizontal ul, nav.horizontal li, nav.horizontal a {
-    width: 100%;
-  }
 }
