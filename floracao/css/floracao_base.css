@@ -1,12 +1,30 @@
 @charset "utf-8";
+@font-face {
+   font-family: 'Dream Orphans';
+   src: url("../resources/dreamOrphans.otf");
+}
+@font-face {
+   font-family: 'Dream Orphans';
+   src: url("../resources/dreamOrphansBd.otf");
+   font-weight: bold;
+}
+@font-face {
+   font-family: 'Dream Orphans';
+   src: url("../resources/dreamOrphansIt.otf");
+   font-style: italic;
+}
+@font-face {
+   font-family: 'Dream Orphans';
+   src: url("../resources/dreamOrphansBdIt.otf");
+   font-weight: bold;
+   font-style: italic;
+}
 
-/*
-   ITSE 1301 Web Design Tools
-   Final Project
-   
-   Filename: floracao_base.css
-
-*/
+/***************************
+Author: Gabriela Andrade
+Floração Base Styles
+Purpose: Establishes base styles for Floração website.
+***************************/
 
 
 /* Basic styles to be used with all devices and under all conditions */
@@ -35,18 +53,33 @@ table, tr, td, th, col, colgroup {
 /* Set the default page element styles */
 
 /* Default Body and Header Styles */
-html {
-   background: rgb(218, 234, 232);
-}
 
 body {
    line-height: 1.2em;
    font-family: Helvetica, Arial, Verdana, sans-serif;
-   /* box-shadow: rgba(51,51,51,0.5) 5px 0px 15px, rgba(51,51,51,0.5) -5px 0px 15px; */
 }
 
 header {
-   background: rgb(218, 234, 232);
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: space-between;
+   max-height: 100px;
+   padding-bottom: 1%;
+}
+
+#siteTitle {
+   display: flex;
+   align-items: center;
+   color:rgb(8, 143, 143);
+   font-family: 'Dream Orphans', Helvetica, Arial, Verdana, sans-serif;
+   font-size: 1.5em;
+   line-height: 1.5em;
+   letter-spacing: 0.75rem;
+}
+
+#siteTitle span {
+   padding-left: 5%;
 }
 
 h1 {
@@ -84,7 +117,6 @@ nav ul {
 }
 
 nav.horizontal li {
-   background: rgb(8, 143, 143);
    text-align: center;
    letter-spacing: 0.25em;
    font-variant: small-caps;
@@ -98,20 +130,21 @@ nav a {
 }
 
 nav a:active, nav a:link, nav a:visited {
-   color: white;
+   color: rgb(8, 143, 143);
 }
 
 nav a:hover {
-   color: rgb(8, 143, 143);
+   color: rgb(12, 91, 87);
    font-weight: bold;
-   background: border-box rgb(218, 234, 232);
 }
 
 
 /* Default Footer Styles */
 footer {
    text-align: center;
-   color: rgb(12, 91, 87);
+   background-color: rgb(12, 91, 87);
+   color: rgb(218, 234, 232);
+   padding-top: 2%;
 }
 
 /* ===============================
