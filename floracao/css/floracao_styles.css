@@ -12,8 +12,15 @@
 
 /* Article Styles */
 #welcome {
-    padding-top: 5%;
-    background: rgb(12, 91, 87);
+  padding-top: 5%;
+  background: rgb(12, 91, 87);
+  width: 100%;
+}
+
+#welcome h1 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 article#port_preview {
