@@ -17,9 +17,16 @@ $mustache = new Mustache_Engine;
 
 // These lines load the header, footer, and body templates into strings
 $header = file_get_contents('templates/header.html');
-$body1 = file_get_contents('templates/pageIntro.html');
-$body2 = file_get_contents('templates/folioStart.html');
-$body3 = file_get_contents('templates/folioCard.html');
-$body4 = file_get_contents('templates/folioEnd.html');
+$body1 = file_get_contents('templates/folioStart.html');
+$body2 = file_get_contents('templates/folioCard.html');
+$body3 = file_get_contents('templates/folioEnd.html');
 $footer = file_get_contents('templates/footer.html');
 $end = file_get_contents('templates/bodend.html');
+
+// Add page-specific variables
+$header_data = ["pagetitle" => "Portfolio"];
+$body2_data1 = [];
+$body2_data2 = [];
+$body2_data3 = [];
+$body2_data4 = [];
+$footer_data = ["footertitle" => "Portfolio"];
