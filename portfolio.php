@@ -7,3 +7,10 @@ mobile-first, responsive portfolio website, Floração Design, using templates c
 the mustache library. The portfolio page will feature cards describing and linking to
 portfolio entries.
 **************************/
+
+// This will load the mustache template library
+require_once 'mustache/mustache/src/Mustache/Autoloader.php';
+Mustache_Autoloader::register();
+
+// This will create a new mustache template engine
+$mustache = new Mustache_Engine;
