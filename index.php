@@ -19,3 +19,7 @@ $header = file_get_contents('templates/header.html');
 $body = file_get_contents('templates/home.html');
 $footer = file_get_contents('templates/footer.html');
 $end = file_get_contents('templates/bodend.html');
+
+// Add page-specific variables
+$header_data = ["pagetitle" => "Home"];
+$footer_data = ["footertitle" => "Home"];
