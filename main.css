@@ -7,7 +7,7 @@ mobile-first, responsive portfolio website, Floração Design.
 
 /* Navigation Styles */
 .navbar {
-    background-color: rgb(12, 91, 87);;
+    background-color: rgb(12, 91, 87);
 }
 
 .navbar-brand {
@@ -16,4 +16,12 @@ mobile-first, responsive portfolio website, Floração Design.
 
 .navbar-brand img {
     max-height: 90px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(12, 91, 87);
+}
+.fterImg {
+    max-height: 50px;
 }
