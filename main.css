@@ -4,3 +4,16 @@ Floração Design
 Purpose: This program will render the base styles for a properly structured mobile-friendly, 
 mobile-first, responsive portfolio website, Floração Design.
 **************************/
+
+/* Navigation Styles */
+.navbar {
+    background-color: rgb(12, 91, 87);;
+}
+
+.navbar-brand {
+    max-height: 100px;
+}
+
+.navbar-brand img {
+    max-height: 90px;
+}
