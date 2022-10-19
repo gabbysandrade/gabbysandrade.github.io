@@ -5,6 +5,29 @@ Purpose: This program will render the base styles for a properly structured mobi
 mobile-first, responsive portfolio website, Floração Design.
 **************************/
 
+/* Custom Fonts */
+@charset "utf-8";
+@font-face {
+   font-family: 'Dream Orphans';
+   src: url("../resources/dreamOrphans.otf");
+}
+@font-face {
+   font-family: 'Dream Orphans';
+   src: url("../resources/dreamOrphansBd.otf");
+   font-weight: bold;
+}
+@font-face {
+   font-family: 'Dream Orphans';
+   src: url("../resources/dreamOrphansIt.otf");
+   font-style: italic;
+}
+@font-face {
+   font-family: 'Dream Orphans';
+   src: url("../resources/dreamOrphansBdIt.otf");
+   font-weight: bold;
+   font-style: italic;
+}
+
 /* Navigation Styles */
 .navbar {
     background-color: rgb(12, 91, 87);
