@@ -26,40 +26,36 @@ $end = file_get_contents('templates/bodend.html');
 // Add page-specific variables
 $header_data = ["pagetitle" => "Portfolio"];
 $body2_data1 = [
-    "crdimg" => "";
-    "imgalt" => "";
-    "crdtitle" => "";
-    "crddate" => "";
-    "crdtxt" => "";
-    "crdlink" => ""];
+    "crdimg" => "images/psd_outbranding.png";
+    "imgalt" => "OutBranding Promos";
+    "crdtitle" => "OutBranding Promos";
+    "crddate" => "July 2022";
+    "crdtxt" => "A site developed with Wordpress for OutBranding Promos, a promotional product concierge service. I led and executed
+    a complete redesign of the site, from layout to wording to graphics.";
+    "crdlink" => "https://www.outbranding.com/"];
 $body2_data2 = [
     "crdimg" => "";
-    "imgalt" => "";
-    "crdtitle" => "";
-    "crddate" => "";
-    "crdtxt" => "";
-    "crdlink" => ""];
+    "imgalt" => "H&H Tax Services";
+    "crdtitle" => "H&H Tax Services";
+    "crddate" => "September 2022";
+    "crdtxt" => "A site developed with Wordpress for H&H Tax Services, a local tax service in Texas. The site was built from concept 
+    to actualization and elements from the color theme to the logo to the text was determined through an iterative and collaborative 
+    process with the client.";
+    "crdlink" => "https://hhtaxservice1040.com/"];
 $body2_data3 = [
-    "crdimg" => "";
-    "imgalt" => "";
-    "crdtitle" => "";
-    "crddate" => "";
-    "crdtxt" => "";
-    "crdlink" => ""];
+    "crdimg" => "images/psd_austinmunchies.png";
+    "imgalt" => "Austin Munchies";
+    "crdtitle" => "Austin Munchies Food Blog";
+    "crddate" => "April 2022";
+    "crdtxt" => "A Wordpress site designed for a fictional young Austinite food blogger.";
+    "crdlink" => "http://www.austinmunchies.wordpress.com"];
 $body2_data4 = [
-    "crdimg" => "";
-    "imgalt" => "";
-    "crdtitle" => "";
-    "crddate" => "";
-    "crdtxt" => "";
-    "crdlink" => ""];
-$body2_data5 = [
-    "crdimg" => "";
-    "imgalt" => "";
-    "crdtitle" => "";
-    "crddate" => "";
-    "crdtxt" => "";
-    "crdlink" => ""];
+    "crdimg" => "images/psd_emergyinc.png";
+    "imgalt" => "Emergy Inc";
+    "crdtitle" => "Emergy Incorporated";
+    "crddate" => "March 2022";
+    "crdtxt" => "A homepage for a site designed for a (secretly) evil renewable energy corporation. Developed with Bootstrap.";
+    "crdlink" => "bootstrap/html/ei_home.html"];
 $body2_dataD = [
     "crdimg" => "images/psd_moresoon.png";
     "imgalt" => "More To Bloom Soon";
@@ -76,7 +72,7 @@ echo $mustache->render($body2, $body2_data1) . PHP_EOL;
 echo $mustache->render($body2, $body2_data2) . PHP_EOL;
 echo $mustache->render($body2, $body2_data3) . PHP_EOL;
 echo $mustache->render($body2, $body2_data4) . PHP_EOL;
-echo $mustache->render($body2, $body2_data5) . PHP_EOL;
+echo $mustache->render($body2, $body2_dataD) . PHP_EOL;
 echo $mustache->render($body2, $body2_dataD) . PHP_EOL;
 echo $mustache->render($body3) . PHP_EOL;
 echo $mustache->render($footer, $footer_data) . PHP_EOL;
