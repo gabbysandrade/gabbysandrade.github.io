@@ -50,6 +50,15 @@ mobile-first, responsive portfolio website, Floração Design.
     font-variant: small-caps;
 }
 
+/* Button Styles */
+.btn {
+    font-variant: small-caps;
+}
+
+.btn-primary {
+    background-color: rgb(12, 91, 87);
+}
+
 /* Footer Styles */
 footer {
     background-color: rgb(12, 91, 87);
