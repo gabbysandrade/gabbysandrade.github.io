@@ -34,7 +34,7 @@ $body2_data1 = [
     from layout to wording to graphics.",
     "crdlink" => "https://www.outbranding.com/"];
 $body2_data2 = [
-    "crdimg" => "",
+    "crdimg" => "images/psd_hhtax.png",
     "imgalt" => "H&H Tax Services",
     "crdtitle" => "H&H Tax Services",
     "crddate" => "September 2022",
