@@ -23,3 +23,9 @@ $end = file_get_contents('templates/bodend.html');
 // Add page-specific variables
 $header_data = ["pagetitle" => "Home"];
 $footer_data = ["footertitle" => "Home"];
+
+// Combine variables with templates and render pages
+echo $mustache->render($header, $header_data) . PHP_EOL;
+echo $mustache->render($body) . PHP_EOL;
+echo $mustache->render($footer, $footer_data) . PHP_EOL;
+echo $mustache->render($end) . PHP_EOL;
