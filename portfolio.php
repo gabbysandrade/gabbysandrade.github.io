@@ -25,12 +25,48 @@ $end = file_get_contents('templates/bodend.html');
 
 // Add page-specific variables
 $header_data = ["pagetitle" => "Portfolio"];
-$body2_data1 = [];
-$body2_data2 = [];
-$body2_data3 = [];
-$body2_data4 = [];
-$body2_data5 = [];
-$body2_dataD = [];
+$body2_data1 = [
+    "crdimg" => "";
+    "imgalt" => "";
+    "crdtitle" => "";
+    "crddate" => "";
+    "crdtxt" => "";
+    "crdlink" => ""];
+$body2_data2 = [
+    "crdimg" => "";
+    "imgalt" => "";
+    "crdtitle" => "";
+    "crddate" => "";
+    "crdtxt" => "";
+    "crdlink" => ""];
+$body2_data3 = [
+    "crdimg" => "";
+    "imgalt" => "";
+    "crdtitle" => "";
+    "crddate" => "";
+    "crdtxt" => "";
+    "crdlink" => ""];
+$body2_data4 = [
+    "crdimg" => "";
+    "imgalt" => "";
+    "crdtitle" => "";
+    "crddate" => "";
+    "crdtxt" => "";
+    "crdlink" => ""];
+$body2_data5 = [
+    "crdimg" => "";
+    "imgalt" => "";
+    "crdtitle" => "";
+    "crddate" => "";
+    "crdtxt" => "";
+    "crdlink" => ""];
+$body2_dataD = [
+    "crdimg" => "images/psd_moresoon.png";
+    "imgalt" => "More To Bloom Soon";
+    "crdtitle" => "More Designs Germinating";
+    "crddate" => "";
+    "crdtxt" => "Return soon to check on our growth!";
+    "crdlink" => ""];
 $footer_data = ["footertitle" => "Portfolio"];
 
 // Combine variables with templates and render pages
