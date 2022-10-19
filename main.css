@@ -41,6 +41,10 @@ mobile-first, responsive portfolio website, Floração Design.
     max-height: 90px;
 }
 
+.nav-link {
+    font-variant: small-caps;
+}
+
 /* Footer Styles */
 footer {
     background-color: rgb(12, 91, 87);
