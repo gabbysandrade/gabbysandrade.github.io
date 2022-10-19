@@ -41,6 +41,11 @@ mobile-first, responsive portfolio website, Floração Design.
     max-height: 90px;
 }
 
+.site-title {
+    font-family: 'Dream Orphans', Helvetica, Arial, Verdana, sans-serif;
+    letter-spacing: 0.75rem;
+}
+
 .nav-link {
     font-variant: small-caps;
 }
