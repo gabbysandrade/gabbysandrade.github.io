@@ -12,6 +12,10 @@ of the fictional startup app, tindog.
     color: white;
 }
 
+.navbar {
+    background-color: rgb(3, 203, 219);
+}
+
 .nav-link {
     font-size: 1.5em;
     color: whitesmoke;
