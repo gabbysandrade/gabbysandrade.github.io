@@ -59,12 +59,17 @@ of the fictional startup app, tindog.
     font-weight: bold;
 }
 
+.revowner {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
 /* Image Styles */
 #mockup {
     max-width: 100%;
 }
 
 .revimg {
-    max-width: 50px;
+    max-width: 80px;
     border-radius: 100%;
 }
