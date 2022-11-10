@@ -20,3 +20,8 @@ of the fictional startup app, tindog.
     font-size: 1.5em;
     color: whitesmoke;
 }
+
+/* Section Styles */
+.shade {
+    background-color: rgb(3, 203, 219);
+}
