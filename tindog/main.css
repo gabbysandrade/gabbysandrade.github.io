@@ -31,6 +31,10 @@ of the fictional startup app, tindog.
     color: white;
 }
 
+.bodydiv {
+    width: 80%;
+}
+
 #intro {
     margin-top: 30%;
     font-size: 3em;
