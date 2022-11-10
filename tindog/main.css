@@ -22,7 +22,7 @@ of the fictional startup app, tindog.
 }
 
 .nav-link:hover {
-    color:rgb(3, 174, 187)
+    color:rgb(5, 161, 186);
 }
 
 /* Section Styles */
@@ -47,6 +47,16 @@ of the fictional startup app, tindog.
 .card-title {
     font-weight: bold;
     font-size: 1.5em;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color:rgb(5, 161, 186);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color:rgb(5, 144, 166);
 }
 
 /* Image Styles */
