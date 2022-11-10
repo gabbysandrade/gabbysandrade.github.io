@@ -40,6 +40,10 @@ of the fictional startup app, tindog.
     font-size: 3em;
 }
 
+.card {
+    border: none;
+}
+
 /* Image Styles */
 #mockup {
     max-width: 100%;
