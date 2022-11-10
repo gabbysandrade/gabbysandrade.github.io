@@ -21,6 +21,10 @@ of the fictional startup app, tindog.
     color: whitesmoke;
 }
 
+.nav-link:hover {
+    color:rgb(3, 174, 187)
+}
+
 /* Section Styles */
 .shade {
     background-color: rgb(3, 203, 219);
