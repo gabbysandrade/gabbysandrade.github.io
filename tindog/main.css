@@ -64,6 +64,10 @@ of the fictional startup app, tindog.
     font-size: 1.2em;
 }
 
+#logos {
+    width: 80%;
+}
+
 /* Image Styles */
 #mockup {
     max-width: 100%;
@@ -72,4 +76,20 @@ of the fictional startup app, tindog.
 .revimg {
     max-width: 80px;
     border-radius: 100%;
+}
+
+#tclogo {
+    max-width: 70%;
+}
+
+#tnwlogo {
+    max-width: 60%;
+}
+
+#bilogo {
+    max-width: 90%;
+}
+
+#mlogo {
+    max-width: 70%;
 }
