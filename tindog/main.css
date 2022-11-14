@@ -68,6 +68,33 @@ of the fictional startup app, tindog.
     width: 80%;
 }
 
+/* Color Class Styles */
+.text-bg-primary {
+    background-color: rgb(3, 203, 219) !important;
+} 
+
+.border-primary {
+    border-color: rgb(3, 203, 219) !important;
+}
+
+.btn-outline-primary {
+    color: rgb(3, 203, 219);
+    border-color: rgb(3, 203, 219);
+    --bs-btn-hover-bg: rgb(2, 164, 176);
+    --bs-btn-hover-border-color: rgb(2, 164, 176);
+    --bs-btn-active-bg: rgb(2, 143, 153);
+    --bs-btn-active-border-color: rgb(2, 143, 153)
+}
+
+.btn-primary {
+    background-color: rgb(3, 203, 219);
+    border-color: rgb(3, 203, 219);
+    --bs-btn-hover-bg: rgb(2, 164, 176);
+    --bs-btn-hover-border-color: rgb(2, 164, 176);
+    --bs-btn-active-bg: rgb(2, 143, 153);
+    --bs-btn-active-border-color: rgb(2, 143, 153);
+}
+
 /* Image Styles */
 #mockup {
     max-width: 100%;
