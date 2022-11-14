@@ -108,3 +108,8 @@ of the fictional startup app, tindog.
 .press {
     width: 80%;
 }
+
+/* Typography */
+h1 {
+    font-weight: 800;
+}
