@@ -78,18 +78,6 @@ of the fictional startup app, tindog.
     border-radius: 100%;
 }
 
-#tclogo {
-    max-width: 70%;
-}
-
-#tnwlogo {
-    max-width: 60%;
-}
-
-#bilogo {
-    max-width: 90%;
-}
-
-#mlogo {
-    max-width: 70%;
+.press {
+    width: 80%;
 }
