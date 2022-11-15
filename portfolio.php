@@ -80,7 +80,6 @@ echo $mustache->render($body2, $body2_data5) . PHP_EOL;
 echo $mustache->render($body2, $body2_data3) . PHP_EOL;
 echo $mustache->render($body2, $body2_data4) . PHP_EOL;
 echo $mustache->render($body2, $body2_dataD) . PHP_EOL;
-echo $mustache->render($body2, $body2_dataD) . PHP_EOL;
 echo $mustache->render($body3) . PHP_EOL;
 echo $mustache->render($footer, $footer_data) . PHP_EOL;
 echo $mustache->render($end) . PHP_EOL;
