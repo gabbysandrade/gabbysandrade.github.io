@@ -57,6 +57,9 @@ mobile-first, responsive portfolio website, Floração Design.
 
 .btn-primary {
     background-color: rgb(38, 153, 224);
+    --bs-btn-border-color: rgb(38, 153, 224);
+    --bs-btn-hover-bg:rgb(13, 74, 112);
+    --bs-btn-hover-border-color: rgb(13, 74, 112);
 }
 
 /* Footer Styles */
