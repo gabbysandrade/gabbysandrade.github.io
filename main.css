@@ -50,6 +50,11 @@ mobile-first, responsive portfolio website, Floração Design.
     font-variant: small-caps;
 }
 
+/* Section Styles */
+.folio-title {
+    color:rgb(13, 74, 112);
+}
+
 /* Button Styles */
 .btn {
     font-variant: small-caps;
