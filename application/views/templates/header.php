@@ -3,7 +3,7 @@
 Name: Gabriela Andrade
 Intermediate Web Programming
 Purpose: This program will generate the header template for the
-comer o sol web application.
+Floração website.
 --------------------------->
   <head>
     <title><?= $title ?></title>

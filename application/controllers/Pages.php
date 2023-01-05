@@ -2,8 +2,7 @@
 /**************************
 Name: Gabriela Andrade
 Intermediate Web Programming
-Purpose: This program will create the Pages class for the comer
-o sol web application.
+Purpose: This program will create the Pages class for the Floração website.
 **************************/
 class Pages extends CI_Controller {
 

@@ -2,8 +2,8 @@
 /**************************
 Name: Gabriela Andrade
 Intermediate Web Programming
-Purpose: This program will create the News controller for the Recipes
-page of the comer o sol web application.
+Purpose: This program will create the Portfolio controller for the Portfolio
+page of the Floração website.
 **************************/
 
 class Portfolio extends CI_Controller {
