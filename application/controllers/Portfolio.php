@@ -11,11 +11,14 @@ class Portfolio extends CI_Controller {
     public function __construct()
     {
         parent::__construct();
+
+        // Load folio model to make it available everywhere in the controller
         $this->load->model('folio_model');
     }
 
     public function index() {
         // Display all portfolio entries
+
         $data['title'] = 'Portfolio';
         $data['navport'] = 'portfolio';
 
