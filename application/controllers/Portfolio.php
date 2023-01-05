@@ -12,7 +12,6 @@ class Portfolio extends CI_Controller {
     {
         parent::__construct();
         $this->load->model('folio_model');
-        $this->load->helper('url_helper');
     }
 
     public function index() {
