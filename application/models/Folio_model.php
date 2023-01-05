@@ -22,7 +22,7 @@ class Folio_model extends CI_Model {
     */
     public function get_folio() {
         
-        // Retrieve array of recipes from database
+        // Retrieve array of portfolio cards from database
         $query = $this->db->get('portfolio');
         $portfolio = $query->result_array();
         
