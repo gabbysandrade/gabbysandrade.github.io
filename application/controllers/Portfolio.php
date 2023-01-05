@@ -1,7 +1,7 @@
 <?php
 /**************************
 Name: Gabriela Andrade
-Intermediate Web Programming
+Floração Design
 Purpose: This program will create the Portfolio controller for the Portfolio
 page of the Floração website.
 **************************/

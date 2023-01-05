@@ -1,9 +1,10 @@
 <html lang="eng-US">
 <!--------------------------
 Name: Gabriela Andrade
-Intermediate Web Programming
-Purpose: This program will generate the header template for the
-Floração website.
+Floração Design
+Purpose: This template will render the document "header" of each page
+of the Floração website. It will include the document head and the
+navbar for the pages.
 --------------------------->
   <head>
     <title><?= $title ?></title>

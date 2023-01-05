@@ -1,7 +1,7 @@
 <?php
 /**************************
 Name: Gabriela Andrade
-Intermediate Web Programming
+Floração Design
 Purpose: This program will create the Pages class for the Floração website.
 **************************/
 class Pages extends CI_Controller {
