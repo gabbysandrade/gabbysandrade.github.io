@@ -17,7 +17,7 @@ class Portfolio extends CI_Controller {
 
     public function index() {
         // Display all portfolio entries
-        $data['title'] = "Portfolio";
+        $data['title'] = 'Portfolio';
         $data['navport'] = 'portfolio';
 
         // Fetch portfolio from model
