@@ -6,40 +6,14 @@ home page of the Floração website.
 --------------------------->
 
 <div class="container bodydiv">
-    <div class="row">
-        <div class="col-12 col-md-8 ptext mb-3">
-            Here at comer o sol, you will find a collection of recipes where the focus is not on a specific diet or trend, but
-            rather the pleasure a good meal can bring. From savory snacks to mouth-watering entrees to luxurious treats, we
-            have gathered the recipes that have brought us numerous magical moments and memories. We hope this journey of joy
-            through cuisine will continue with you.
-        </div>
+    <div class="row mb-3">
         <div class="col-12 col-md-4">
-            <div id="homeslide" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#homeslide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#homeslide" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#homeslide" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/images/hs1.jpg" class="d-block w-100" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/hs2.jpg" class="d-block w-100" alt="">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/hs3.jpg" class="d-block w-100" alt="">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#homeslide" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#homeslide" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            <img src="assets/images/intro.png" alt="Gabriela Andrade, Web Developer & Designer" />
+        </div>
+        <div class="col-12 col-md-8">
+            <h5>Hello, I'm Gabriela,</h5>
+            <h1>Professional Web Developer & UI/UX Designer</h1>
+            <a href="https://www.linkedin.com/in/gabriela-s-andrade/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </div>
 </div>
