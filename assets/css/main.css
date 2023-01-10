@@ -108,8 +108,6 @@ footer {
 /* Other Styles */
 .hr-hlf {
     width: 50%;
-    border-width: 5px;
-    border-style: dotted;
-    color:rgb(13, 74, 112);
-    border-color:rgb(13, 74, 112);
+    border-top: 5px dotted rgb(13, 74, 112);
+    opacity: 1;
 }
