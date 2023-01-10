@@ -1,4 +1,5 @@
-<html lang="eng-US">
+<!DOCTYPE html>
+<html lang="en">
 <!--------------------------
 Name: Gabriela Andrade
 Floração Design
@@ -9,6 +10,7 @@ navbar for the pages.
   <head>
     <title><?= $title ?></title>
     <meta name="Author" content="Gabriela Andrade">
+    <meta name="description" content="Portfolio site for Austin-based Brasilian web developer and UI/UX designer, Gabriela Andrade.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
