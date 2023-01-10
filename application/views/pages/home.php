@@ -6,7 +6,7 @@ home page of the Floração website.
 --------------------------->
 
 <div class="shade-light">
-    <div class="container bodydiv py-3">
+    <div class="container bodydiv py-5">
         <div class="row">
             <div class="col-12 col-md-6">
                 <img id="introimg" src="assets/images/intro.png" alt="Gabriela Andrade, Web Developer & Designer" />
