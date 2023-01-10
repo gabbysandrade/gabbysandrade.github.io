@@ -8,10 +8,10 @@ home page of the Floração website.
 <div class="shade-light">
     <div class="container bodydiv py-3">
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-6">
                 <img id="introimg" src="assets/images/intro.png" alt="Gabriela Andrade, Web Developer & Designer" />
             </div>
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-5 mt-5">
                 <h5>Hello, I'm Gabriela,</h5>
                 <h1>Professional Web Developer & UI/UX Designer</h1>
                 <hr class="hr-hlf">
