@@ -12,8 +12,8 @@ home page of the Floração website.
                 <img id="introimg" src="assets/images/intro.png" alt="Gabriela Andrade, Web Developer & Designer" />
             </div>
             <div class="col-12 col-md-5 mt-5">
-                <h5>Hello, I'm Gabriela,</h5>
-                <h1>Professional Web Developer & UI/UX Designer</h1>
+                <h5 class="txt-light2">Hello, I'm Gabriela,</h5>
+                <h1 class="txt-vivid">Professional Web Developer & UI/UX Designer</h1>
                 <hr class="hr-hlf">
                 <a class="socials" href="https://www.linkedin.com/in/gabriela-s-andrade/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             </div>

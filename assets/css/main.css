@@ -105,6 +105,23 @@ footer {
     max-height: 50px;
 }
 
+/* Typography */
+.txt-primary {
+    color: rgb(38, 153, 224);
+}
+.txt-light1 {
+    color: rgb(233, 247, 255);
+}
+.txt-light2 {
+    color: rgb(255, 251, 216);
+}
+.txt-vivid {
+    color: rgb(224, 205, 26);
+}
+.txt-dark {
+    color: rgb(13, 74, 112);
+}
+
 /* Other Styles */
 .hr-hlf {
     width: 50%;
