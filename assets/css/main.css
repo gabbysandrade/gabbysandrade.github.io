@@ -104,3 +104,12 @@ footer {
 .fterImg {
     max-height: 50px;
 }
+
+/* Other Styles */
+.hr-hlf {
+    width: 50%;
+    border-width: 5px;
+    border-style: dotted;
+    color:rgb(13, 74, 112);
+    border-color:rgb(13, 74, 112);
+}
