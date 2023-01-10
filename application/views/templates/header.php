@@ -19,7 +19,7 @@ navbar for the pages.
   </head>
   <body>
   <nav class="navbar navbar-dark navbar-expand-lg">
-    <div class="container-fluid">
+    <div id="navinner" class="container-fluid">
       <a class="navbar-brand" href="\">
         <img src="assets/images/flor_logo.png" alt="Home" class="d-inline-block align-text-center hdrimg"/>
         <span class="site-title ms-3">floração</span>
