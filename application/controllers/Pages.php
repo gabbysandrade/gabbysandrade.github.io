@@ -16,6 +16,7 @@ class Pages extends CI_Controller {
 
         $data['title'] = ucfirst($page); // Capitalize the first letter
         $data['navport'] = 'portfolio';
+        $data['jslink'] = 'assets/js/main.js';
 
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
