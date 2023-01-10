@@ -11,23 +11,11 @@ $(document).ready(function(){
         case "Home":
             // Leave homepage as active link
             break;
-        case "About the Designer":
-            // Remove active class from home nav link
-            $("#navindx").removeClass("active");
-            // Add active class to About the Designer nav link
-            $("#navabt").addClass("active");
-            break;
         case "Portfolio":
             // Remove active class from home nav link
             $("#navindx").removeClass("active");
             // Add active class to Portfolio nav link
             $("#navport").addClass("active");
-            break;
-        case "Work Experience":
-            // Remove active class from home nav link
-            $("#navindx").removeClass("active");
-            // Add active class to Work Experience nav link
-            $("#navexp").addClass("active");
             break;
         case "ERROR":
             // Remove active class from home nav link
