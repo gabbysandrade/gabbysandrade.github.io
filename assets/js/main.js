@@ -6,10 +6,6 @@ Purpose: This script will move the class of "active" to the appropriate
 link in the navbar depending upon the page title.
 **************************/
 $(document).ready(function(){
-    activelink();    
-});
-
-function activelink() {
     // Check page title
     console.log($(".page-title").text());
     switch ($(".page-title").text()) {
@@ -30,5 +26,5 @@ function activelink() {
             // Remove active class from home nav link
             $("#navindx").removeClass("active");
             break;
-    }
-}
+    }   
+});
