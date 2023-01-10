@@ -1,17 +1,9 @@
 <!--------------------------
 Name: Gabriela Andrade
-Intermediate Web Programming
+Floração Design
 Purpose: This program will generate the main body content for the
-home page of the comer o sol web application.
+home page of the Floração website.
 --------------------------->
-
-<div class="pageIntro mt-5 mx-auto">
-    <h2 class="main-title text-center" id="main-title">Welcome to comer o sol!</h2>
-    <p class="main-subtitle text-center" id="main-subtitle">"You are what you eat," or so the saying goes, so why not
-        eat what fills you with joy?
-    </p>
-    <hr>
-</div>
 
 <div class="container bodydiv">
     <div class="row">
