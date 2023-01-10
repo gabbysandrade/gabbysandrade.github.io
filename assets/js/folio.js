@@ -13,6 +13,30 @@ $(document).ready(function(){
     fadein();    
 });
 
+function activelink() {
+    // Check page title
+    console.log($(".page-title").text());
+    switch ($(".page-title").text()) {
+        case "Home":
+            // Leave homepage as active link
+            break;
+        case "Portfolio":
+            // Remove active class from home nav link
+            $("#navindx").removeClass("active");
+            // Add active class to Portfolio nav link
+            $("#navport").addClass("active");
+            break;
+        case "ERROR":
+            // Remove active class from home nav link
+            $("#navindx").removeClass("active");
+            break;
+        default:
+            // Remove active class from home nav link
+            $("#navindx").removeClass("active");
+            break;
+    }
+}
+
 function fadein() {
     $("#crd1").animate({"opacity":"1"}, 1000);
     $("#crd2").animate({"opacity":"1"}, 1500);
