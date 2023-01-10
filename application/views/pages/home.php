@@ -5,9 +5,9 @@ Purpose: This program will generate the main body content for the
 home page of the Floração website.
 --------------------------->
 
-<div class="container shade-light">
-    <div class="container bodydiv">
-        <div class="row mb-3">
+<div class="shade-light">
+    <div class="container bodydiv py-3">
+        <div class="row">
             <div class="col-12 col-md-4">
                 <img id="introimg" src="assets/images/intro.png" alt="Gabriela Andrade, Web Developer & Designer" />
             </div>
