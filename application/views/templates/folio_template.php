@@ -9,7 +9,7 @@ of the Floração website.
 <!-- Create loop for portfolio items in database -->
 {portfolio}
 <div class="col">
-    <div class="card h-100">
+    <div class="card h-100 folio-card">
         <img src="{imgsrc}" class="card-img-top" alt="{imgalt}">
         <div class="card-body">
             <h5 class="card-title folio-title">{title}</h5>
