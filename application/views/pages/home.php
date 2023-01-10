@@ -13,7 +13,7 @@ home page of the Floração website.
         <div class="col-12 col-md-8">
             <h5>Hello, I'm Gabriela,</h5>
             <h1>Professional Web Developer & UI/UX Designer</h1>
-            <a href="https://www.linkedin.com/in/gabriela-s-andrade/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="socials" href="https://www.linkedin.com/in/gabriela-s-andrade/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </div>
 </div>
