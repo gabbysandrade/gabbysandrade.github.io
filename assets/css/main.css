@@ -121,6 +121,9 @@ footer {
 .txt-dark {
     color: rgb(13, 74, 112);
 }
+.txt-shadow {
+    text-shadow: 2px 2px rgba(13, 74, 112, 0.5);
+}
 
 /* Other Styles */
 .hr-hlf {
