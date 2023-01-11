@@ -39,3 +39,26 @@ home page of the Floração website.
         
     </section>
 </div>
+
+<div class="shade-light py-5">
+    <div id="formdiv" class="mx-auto bodydiv">
+        <div id="msg" class="text-center mx-auto">
+            <br>
+        </div>
+        <form id="contact-form" name="contact-form">
+            <h2 class="txt-vivid txt-shadow text-center">Contact</h2>
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" maxlength="64"><br>
+            <label for="email" class="form-label">Email</label>
+            <input type="text" class="form-control" id="email" name="email" placeholder="john@doe.com" maxlength="64"><br>
+            <label for="subj" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subj" name="subj" placeholder="Message Subject" maxlength="64"><br>
+            <label for="frmmsg" class="form-label">Message</label>
+            <textarea class="form-control" id="frmmsg" name="frmmsg" maxlength="1000"></textarea><br>
+            <div class="flexdiv text-center">
+                <button id="clearbtn" type="button" class="btn btn-outline-light me-2">clear</button>
+                <button id="submitbtn" type="button" class="btn btn-light ms-2">submit</button>
+            </div>
+        </form>
+    </div>
+</div>
