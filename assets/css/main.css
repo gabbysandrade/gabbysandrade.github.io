@@ -85,11 +85,13 @@ mobile-first, responsive portfolio website, Floração Design.
 #formdiv {
     border:7px solid rgb(13, 74, 112);
     border-radius: 30px 30px 30px 30px;
+    background-image: url(../images/formbg.png);
     max-width: 600px;
 }
 
 label {
     color:rgb(13, 74, 112);
+    font-weight: 500;
 }
 
 /* Image Styles */
