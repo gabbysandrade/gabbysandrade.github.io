@@ -9,7 +9,8 @@ universal scripts for the pages.
             <span class="page-title hidden"><?= $title ?></span>
             <h6 class="site-title mt-3 mb-2 ms-2">floração</h6>
             <img class="fterImg mb-3" src="assets/images/flor_logo.png" alt="Floração logo"/><br>
-            <span>&copy; Gabriela Andrade | All rights reserved.</span> 
+            <span>&copy; Gabriela Andrade | All rights reserved.</span>
+            <p class="fst-italic">This site was built using the CodeIgniter and Bootstrap frameworks</p>  
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
