@@ -32,8 +32,8 @@ navbar for the pages.
       <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
         <div class="navbar-nav me-3 mb-2 mb-lg-0">
           <a class="nav-link active" id="navindx" aria-current="page" href="\">home</a>
-          <a class="nav-link" id="navport" href="<?= $navabt ?>">about</a>
-          <a class="nav-link" id="navport" href="<?= $navcnt ?>">contact</a>
+          <a class="nav-link" id="navabt" href="<?= $navabt ?>">about</a>
+          <a class="nav-link" id="navcnt" href="<?= $navcnt ?>">contact</a>
           <a class="nav-link" id="navport" href="<?= $navport ?>">portfolio</a>
         </div>
       </div>
