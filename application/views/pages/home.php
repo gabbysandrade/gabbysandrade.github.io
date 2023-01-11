@@ -41,7 +41,7 @@ home page of the Floração website.
 </div>
 
 <div class="shade-light py-5">
-    <div id="formdiv" class="mx-auto bodydiv">
+    <div id="formdiv" class="mx-auto bodydiv p-5">
         <div id="msg" class="text-center mx-auto">
             <br>
         </div>
