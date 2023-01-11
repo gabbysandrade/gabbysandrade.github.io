@@ -15,6 +15,8 @@ class Pages extends CI_Controller {
         }
 
         $data['title'] = ucfirst($page); // Capitalize the first letter
+        $data['navabt'] = '#about';
+        $data['navcnt'] = '#contact-form';
         $data['navport'] = 'portfolio';
         $data['jslink'] = 'assets/js/main.js';
 
