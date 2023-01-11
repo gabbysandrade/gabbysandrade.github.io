@@ -69,6 +69,10 @@ mobile-first, responsive portfolio website, Floração Design.
     background-color: rgba(255, 255, 255, 0);
 }
 
+#abttxt {
+    font-size: 18px;
+}
+
 .folio-card {
     box-shadow: 10px 10px 5px rgba(13, 74, 112, 0.5);
 }
@@ -148,5 +152,8 @@ footer {
 @media only screen and (min-width: 768px) {
     #navinner {
         width: 80%;
+    }
+    #abthr {
+        margin-left: 50%;
     }
 }
