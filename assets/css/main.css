@@ -136,6 +136,10 @@ footer {
     opacity: 1;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     #navinner {

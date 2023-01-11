@@ -6,7 +6,7 @@ of the Floração website. It will include the document footer and all
 universal scripts for the pages.
 --------------------------->
         <footer class="text-center py-4">
-            <span class="page-title"><?= $title ?></span>
+            <span class="page-title hidden"><?= $title ?></span>
             <h6 class="site-title mt-3 mb-2 ms-2">floração</h6>
             <img class="fterImg mb-3" src="assets/images/flor_logo.png" alt="Floração logo"/><br>
             <span>&copy; Gabriela Andrade | All rights reserved.</span> 
