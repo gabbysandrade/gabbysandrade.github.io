@@ -69,10 +69,6 @@ mobile-first, responsive portfolio website, Floração Design.
     background-color: rgba(255, 255, 255, 0);
 }
 
-#abttxt {
-    width: 50%;
-}
-
 .folio-card {
     box-shadow: 10px 10px 5px rgba(13, 74, 112, 0.5);
 }
@@ -88,8 +84,7 @@ mobile-first, responsive portfolio website, Floração Design.
 }
 
 #abtimg {
-    width: 50%;
-    float: right;
+    width: 100%;
 }
 
 /* Button Styles */
