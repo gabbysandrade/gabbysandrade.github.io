@@ -81,6 +81,16 @@ mobile-first, responsive portfolio website, Floração Design.
     color:rgb(13, 74, 112);
 }
 
+/* Form Styles */
+#formdiv {
+    border:5px rgb(13, 74, 112);
+    max-width: 600px;
+}
+
+label {
+    color:rgb(13, 74, 112);
+}
+
 /* Image Styles */
 #introimg {
     width: 100%;
