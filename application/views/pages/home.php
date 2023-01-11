@@ -21,3 +21,13 @@ home page of the Floração website.
         </div>
     </div>
 </div>
+<div class="shade-light">
+    <section id="about" class="container bodydiv py-5">
+        <img id="abtimg" src="assets/images/abt.png" alt="" />
+        <h2 class="txt-vivid txt-shadow">About Me</h2>
+        <hr class="hr-hlf">
+        <p>I am a web developer with a background in environmental design and color theory and am actively pursuing the skillset of a full-stack developer.
+        Originally from Brasil, I have spent my life working and living around the globe, ranging in location from Hong Kong to Puerto Rico to Hawai'i. 
+        My adaptability and eagerness to embrace the cultures and lifestyles of each of my "homes" carry over into the versatility and warmth of my designs.</p>
+    </section>
+</div>
