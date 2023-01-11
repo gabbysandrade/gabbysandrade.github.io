@@ -17,6 +17,7 @@ home page of the Floração website.
                 <a class="btn btn-outline-light btn-lg mt-4" href="<?= $navport ?>">view my portfolio &#8594;</a>
                 <hr class="hr-hlf">
                 <a class="socials" href="https://www.linkedin.com/in/gabriela-s-andrade/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a class="socials" href="#contact-form"><i class="fa-solid fa-envelope"></i></a>
             </div>
         </div>
     </div>
