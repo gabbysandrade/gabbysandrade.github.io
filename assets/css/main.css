@@ -94,6 +94,10 @@ label {
     font-weight: 500;
 }
 
+textarea {
+    min-height: 200px !important;
+}
+
 /* Image Styles */
 #introimg {
     width: 100%;
