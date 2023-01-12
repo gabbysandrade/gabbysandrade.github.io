@@ -23,6 +23,14 @@ function clearForm() {
     $("#msg").html("<br>");
 }
 
+// Define function to validate email
+function validEmail(email) {
+    // Regex for email address
+    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    // Return true if valid and false if invalid
+    return re.test(email);
+} 
+
 
 $(document).ready(function(){
     // Check page title
