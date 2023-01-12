@@ -43,7 +43,7 @@ function sendData(name, email, subj, frmmsg){
             // Clear form and generate success message if server returns success response
             if (val === "okay") {
                 clearForm();
-                $("#msg").html("Your message was sent!");
+                alert("Your message was sent!");
             }
             // Otherwise generate error message 
             else {
