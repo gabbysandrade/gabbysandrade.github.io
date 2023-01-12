@@ -12,6 +12,18 @@ function will return a server error message to the user.
 
 It will also ensure the correct navlink is underlined.
 **************************/
+// Define function to clear form
+function clearForm() {
+    // Clear user input from form
+    $("#name").val("");
+    $("#email").val("");
+    $("#subj").val("");
+    $("#frmmsg").val("");
+    // Clear error messages
+    $("#msg").html("<br>");
+}
+
+
 $(document).ready(function(){
     // Check page title
     switch ($(".page-title").text()) {
