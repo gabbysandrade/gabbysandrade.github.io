@@ -102,6 +102,18 @@ function validate() {
 
 
 $(document).ready(function(){
+    
+    // Add event handler to clear form with click of clear button
+    $("#clearbtn").click(function () {
+        clearForm();
+    });
+
+    // Add event handler for submit button
+    $("#submitbtn").click(function () {
+        // Validate form and return error messages
+        validate();
+    });
+
     // Check page title
     switch ($(".page-title").text()) {
         case "Home":
