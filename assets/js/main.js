@@ -29,7 +29,35 @@ function validEmail(email) {
     var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     // Return true if valid and false if invalid
     return re.test(email);
-} 
+}
+
+// Define function to send data for server validation through AJAX
+function sendData(name, email, subj, frmmsg){
+    
+    // Send data through AJAX
+    $.ajax({
+        url: 'processnames',
+        type: 'POST',
+        data: {name: name, email: email, subj: subj, frmmsg: frmmsg},
+        success: function (val) {
+            // Clear form and generate success message if server returns success response
+            if (val === "okay") {
+                clearForm();
+                $("#msg").html("Your message was sent!");
+            }
+            // Otherwise generate error message 
+            else {
+                $("#msg").html("Sorry, your email was not sent.");
+            }
+        },
+        // Generate error message in case of server error response
+        error: function () {
+            $("#msg").html("Sorry, your email was not sent.");
+        }
+    });
+
+    return;
+}
 
 
 $(document).ready(function(){
