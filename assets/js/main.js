@@ -2,12 +2,18 @@
 /**************************
 Name: Gabriela Andrade
 Floração Design
-Purpose: This script will move the class of "active" to the appropriate
-link in the navbar depending upon the page title.
+Purpose: This script will provide client-side validation of the
+Contact form of the comer o sol web appication. It will use AJAX written
+in jQuery to either allow for successful submission of the form or 
+provide error messages to the user depending on the validity of the
+input. It also enables the use of a button to clear the form inputs
+and if the input fails validation after submission, the AJAX
+function will return a server error message to the user.
+
+It will also ensure the correct navlink is underlined.
 **************************/
 $(document).ready(function(){
     // Check page title
-    console.log($(".page-title").text());
     switch ($(".page-title").text()) {
         case "Home":
             // Leave homepage as active link
