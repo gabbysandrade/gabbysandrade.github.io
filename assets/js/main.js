@@ -59,6 +59,47 @@ function sendData(name, email, subj, frmmsg){
     return;
 }
 
+// Define function to validate form input
+function validate() {
+    // Initialize error message as empty
+    var errorMessage = "";
+
+    // Retrieve and trim inputs
+    var name = $("#name").val().trim();
+    var subject = $("#subj").val().trim();
+    var message = $("#frmmsg").val().trim();
+    var email = $("#email").val().trim();
+
+    // Return trimmed inputs to form
+    $("#name").val(name);
+    $("#subj").val(subject);
+    $("#frmmsg").val(message);
+    $("#email").val(email);
+
+    // Test form inputs and return error messages if invalid
+    if (name == "") {
+        errorMessage += "The 'Name' field cannot be empty. <br>"
+    }
+    if (subject == "") {
+        errorMessage += "The 'Subject' field cannot be empty. <br>"
+    }
+    if (!validEmail(email)) {
+        errorMessage += "You must enter a valid email. <br>"
+    }
+    if (message == "") {
+        errorMessage += "The 'Message' field cannot be empty. <br>"
+    }
+    
+    // Send data to server with AJAX if there are no errors
+    if (errorMessage === "") {
+        sendData(name, email, subject, message);
+    }
+    // Otherwise, report errors
+    else {
+        $("#msg").html(errorMessage);
+    }
+}
+
 
 $(document).ready(function(){
     // Check page title
