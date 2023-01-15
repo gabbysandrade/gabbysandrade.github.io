@@ -25,7 +25,7 @@ class Ajax extends CI_Controller {
             if(!empty($name) && !empty($subject) && !empty($message) && !empty($from)){
 
                 // Form the email headers
-                $headers = "From: $from\r\n";
+                $headers = "From: $name <$from>\r\n";
                 $headers .= "Reply-To: $from\r\n";
                 $headers .= "MIME-Version: 1.0\r\n";
                 $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
