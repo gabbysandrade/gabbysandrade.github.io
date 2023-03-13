@@ -28,13 +28,9 @@ mobile-first, responsive portfolio website, Floração Design.
    font-style: italic;
 }
 
-/* Background Styles */
-.lblue {
+/* Navigation Styles */
+.navbar {
     background-color: rgb(38, 153, 224);
-}
-
-.dblue {
-    background-color: rgb(10, 69, 158);
 }
 
 .navbar-brand {
