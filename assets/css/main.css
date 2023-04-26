@@ -80,6 +80,7 @@ mobile-first, responsive portfolio website, Floração Design.
 
 .folio-card:hover {
     transform: scale(1.05);
+    box-shadow: 15px 15px 8px rgba(13, 74, 112, 0.5);
 }
 
 .folio-title {
