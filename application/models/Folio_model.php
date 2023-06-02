@@ -23,6 +23,7 @@ class Folio_model extends CI_Model {
     public function get_folio() {
         
         // Retrieve array of portfolio cards from database
+        $this->db->order_by('id', 'DESC');
         $query = $this->db->get('portfolio');
         $portfolio = $query->result_array();
         
