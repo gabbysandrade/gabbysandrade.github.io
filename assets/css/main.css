@@ -95,6 +95,11 @@ mobile-first, responsive portfolio website, Floração Design.
     max-width: 600px;
 }
 
+#blurb {
+    font-weight: 500;
+    font-size: 16px;
+}
+
 label {
     color:rgb(13, 74, 112);
     font-weight: 500;
