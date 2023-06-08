@@ -150,10 +150,10 @@ footer {
     color: rgb(38, 153, 224);
 }
 .txt-light1 {
-    color: rgb(233, 247, 255);
+    color: rgba(233, 247, 255, 0.9);
 }
 .txt-light2 {
-    color: rgb(255, 251, 216);
+    color: rgba(255, 251, 216, 0.9);
 }
 .txt-vivid {
     color: rgb(224, 205, 26);
