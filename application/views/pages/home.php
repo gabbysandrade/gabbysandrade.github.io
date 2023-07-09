@@ -42,7 +42,7 @@ home page of the Floração website.
     </section>
 </div>
 
-<div class="shade-light">
+<div class="shade-light pt-5">
     <section id="contact" class="container bodydiv text-center py-5">
         <h2 class="txt-light1">Ready to hit refresh on your website?</h2>
         <p class="txt-light1">Click the button below to schedule a free consultation for my web services.</p>
