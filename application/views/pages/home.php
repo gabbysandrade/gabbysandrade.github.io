@@ -43,10 +43,20 @@ home page of the Floração website.
 </div>
 
 <div class="shade-light pt-5">
-    <section id="contact" class="container bodydiv text-center py-5">
-        <h2 class="txt-light1">Ready to hit refresh on your website?</h2>
-        <p class="txt-light1">Click the button below to schedule a free consultation for my web services.</p>
-        <a class="btn btn-outline-light btn-lg mt-4" href="https://calendly.com/floracao/consultation">schedule consultation</a>
+    <section id="contact" class="container text-center py-5">
+        <div class="row">
+            <div class="col-3">
+                <img class="cta_img" src="assets/images/ConsultationCTA1.png" alt="" />
+            </div>
+            <div class="col-6">
+                <h2 class="txt-light1">Ready to hit refresh on your website?</h2>
+                <p class="txt-light1">Click the button below to schedule a free consultation for my web services.</p>
+                <a class="btn btn-outline-light btn-lg mt-4" href="https://calendly.com/floracao/consultation">schedule consultation</a>
+            </div>
+            <div class="col-3">
+                <img class="cta_img" src="assets/images/ConsultationCTA2.png" alt="" />
+            </div>
+        </div>
     </section>
 </div>
 
