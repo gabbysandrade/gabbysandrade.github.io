@@ -42,6 +42,14 @@ home page of the Floração website.
     </section>
 </div>
 
+<div class="shade-light">
+    <section id="contact" class="container bodydiv text-center py-5">
+        <h2 class="txt-light1">Ready to hit refresh on your website?</h2>
+        <p class="txt-light1">Click the button below to schedule a free consultation for my web services.</p>
+        <a class="btn btn-outline-light btn-lg mt-4" href="https://calendly.com/floracao/consultation">schedule consultation</a>
+    </section>
+</div>
+
 <div class="shade-light py-5">
     <div id="formdiv" class="mx-auto mt-5 bodydiv pt-3 pb-5 px-5">
         <div id="msg" class="text-center mx-auto">
