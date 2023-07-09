@@ -57,9 +57,6 @@ home page of the Floração website.
         </div>
         <form id="contact-form" name="contact-form">
             <h2 class="txt-vivid txt-shadow text-center">Contact</h2>
-            <div class="text-center mx-auto">
-                <p id="blurb" class="txt-light1">Ready to hit refresh on your website? Complete the contact form below to set up a free consultation for my web services.</p>
-            </div>
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="John Doe" maxlength="64"><br>
             <label for="email" class="form-label">Email</label>
