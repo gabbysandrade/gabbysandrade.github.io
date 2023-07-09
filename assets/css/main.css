@@ -114,6 +114,10 @@ textarea {
     width: 100%;
 }
 
+.cta_img {
+    width: 100%;
+}
+
 /* Button Styles */
 .btn {
     font-variant: small-caps;
