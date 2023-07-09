@@ -12,7 +12,7 @@ home page of the Floração website.
                 <img id="introimg" src="assets/images/intro.png" alt="Gabriela Andrade, Web Developer & Designer" />
             </div>
             <div class="col-12 col-md-5 mt-5">
-                <h5 class="txt-light2">Bem-vindo, I'm Gabriela,</h5>
+                <h5 class="txt-light1">Bem-vindo, I'm Gabriela,</h5>
                 <h1 class="txt-vivid txt-shadow">Professional Web Developer & UI/UX Designer</h1>
                 <a class="btn btn-outline-light btn-lg mt-4" href="<?= $navport ?>">view my portfolio &#8594;</a>
                 <hr class="hr-hlf">
@@ -30,7 +30,7 @@ home page of the Floração website.
             <div class="col-12 col-md-5 mt-5 pt-5">
                 <h2 class="txt-vivid txt-shadow">About Me</h2>
                 <hr id="abthr" class="hr-hlf">
-                <p id="abttxt" class="txt-light2">I am a web developer with a background in environmental design and color theory and am actively pursuing the skillset of a full-stack developer.
+                <p id="abttxt" class="txt-light1">I am a web developer with a background in environmental design and color theory and am actively pursuing the skillset of a full-stack developer.
                 Originally from Brasil, I have spent my life working and living around the globe, ranging in location from Hong Kong to Puerto Rico to Hawai'i. 
                 My adaptability and eagerness to embrace the cultures and lifestyles of each of my "homes" carry over into the versatility and warmth of my designs.</p>
             </div>
