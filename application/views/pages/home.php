@@ -43,8 +43,8 @@ home page of the Floração website.
 </div>
 
 <div class="shade-light pt-5">
-    <section id="contact" class="container text-center py-5">
-        <div class="row">
+    <section id="contact" class="text-center py-5">
+        <div class="row align-items-center">
             <div class="col-3">
                 <img class="cta_img" src="assets/images/ConsultationCTA1.png" alt="" />
             </div>
