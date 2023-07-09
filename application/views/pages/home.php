@@ -26,7 +26,7 @@ home page of the Floração website.
 
 <div class="shade-light">
     <section id="about" class="container bodydiv py-5">
-        <div class="row text-md-end">
+        <div class="row align-items-center text-md-end">
             <div class="col-12 col-md-5 mt-5 pt-5">
                 <h2 class="txt-vivid txt-shadow">About Me</h2>
                 <hr id="abthr" class="hr-hlf">
