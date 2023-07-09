@@ -126,6 +126,15 @@ textarea {
     --bs-btn-hover-border-color: rgb(13, 74, 112);
 }
 
+.btn-light {
+    --bs-btn-color: rgb(13, 74, 112);
+    --bs-btn-hover-color: rgb(13, 74, 112);
+}
+
+.btn-outline-light {
+    --bs-btn-hover-color: rgb(13, 74, 112);
+}
+
 .socials {
     color: rgb(255, 251, 216);
     font-size: 26px;
