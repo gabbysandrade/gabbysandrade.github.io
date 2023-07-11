@@ -51,7 +51,7 @@ OutBranding Promos portfolio detail page of the Floração website.
 </section>
 <section class="highlight-bl">
     <div class="container bodydiv py-5 txt-dark">
-        <div class="row">
+        <div class="row align-items-center">
             <div class="col-12 col-md-6">
                 <img class="col-img" src="assets/images/detail_obp.png" alt="Comparison of the initial OutBranding Promos website redesign to the latest redesign." />
             </div>
