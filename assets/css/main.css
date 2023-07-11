@@ -135,6 +135,8 @@ textarea {
 
 .stat-icon {
     max-width: 80px;
+    text-align: center;
+    padding: 3%;
 }
 
 /* Button Styles */
