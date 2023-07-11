@@ -68,8 +68,8 @@ OutBranding Promos portfolio detail page of the Floração website.
     </div>
 </section>
 <section class="shade-light color-insights">
-    <div class="container bodydiv py-5 txt-light1">
-        <h2 class="overview-title text-center">Color Insights</h2>
+    <div class="container bodydiv py-5 txt-light1 text-center">
+        <h2 class="overview-title">Color Insights</h2>
         <div class="row align-items-center">
             <div class="col-12 col-md-6">
                 <img class="colordisk" id="obp6" src="assets/images/colordisks/colordisk_obp6.png" />
