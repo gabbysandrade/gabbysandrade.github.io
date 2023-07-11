@@ -34,7 +34,7 @@ OutBranding Promos portfolio detail page of the Floração website.
                         <img class="stat-icon" src="assets/images/laptop_icon.png" alt="Languages, Frameworks, and Tools Used"/>
                     </div>
                     <div class="col-9 ps-3">
-                        <p>June 2023</p>
+                        <p>Wordpress, HTML/CSS, Shopify, Canva</p>
                     </div>
                 </div>
                 <div class="row align-items-center">
