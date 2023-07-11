@@ -13,7 +13,7 @@ OutBranding Promos portfolio detail page of the Floração website.
         <h1>OutBranding Promos</h1>
         <div class="row align-items-center">
             <div class="col-12 col-md-6">
-                <p>Now armed with a year's worth of experience with the brand and the team behind it, this second 
+                <p class="overview">Now armed with a year's worth of experience with the brand and the team behind it, this second 
                 redesign of the OutBranding Promos website was a complete departure stylistically from the redesign completed when I 
                 was first brought onto the team. OutBranding Promos specializes in a concierge, individualized experience for every 
                 customer, and so the design focus centered around the humans behind OutBranding. From both user experience and sales 

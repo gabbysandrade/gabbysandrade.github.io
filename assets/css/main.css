@@ -96,6 +96,11 @@ mobile-first, responsive portfolio website, Floração Design.
     overflow: hidden;
 }
 
+.overview {
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .stats {
     background-color: rgba(13, 74, 112, 0.3);
     border-radius: 30px 30px 30px 30px;
