@@ -110,11 +110,7 @@ textarea {
     border-radius: 0 0 0 115px;
 }
 
-#abtimg {
-    width: 100%;
-}
-
-.cta_img {
+#abtimg, .cta_img, .palettebar, .stat-icon, .banner {
     width: 100%;
 }
 
