@@ -25,7 +25,7 @@ OutBranding Promos portfolio detail page of the Floração website.
                     <div class="col-3">
                         <img class="stat-icon" src="assets/images/calendar_icon.png" alt="Publish Date"/>
                     </div>
-                    <div class="col-9 ps-3">
+                    <div class="col-8 offset-1 ps-3">
                         <p>June 2023</p>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ OutBranding Promos portfolio detail page of the Floração website.
                     <div class="col-3">
                         <img class="stat-icon" src="assets/images/laptop_icon.png" alt="Languages, Frameworks, and Tools Used"/>
                     </div>
-                    <div class="col-9 ps-3">
+                    <div class="col-8 offset-1 ps-3">
                         <p>Wordpress, HTML/CSS, Shopify, Canva</p>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ OutBranding Promos portfolio detail page of the Floração website.
                     <div class="col-3">
                         <img class="stat-icon" src="assets/images/palette_icon.png" alt="Color Palette"/>
                     </div>
-                    <div class="col-9 ps-3">
+                    <div class="col-8 offset-1 ps-3">
                         <img class="palettebar" src="assets/images/palettebar_obp.png" alt="OutBranding Promos Color Palette"/>
                     </div>
                 </div>
