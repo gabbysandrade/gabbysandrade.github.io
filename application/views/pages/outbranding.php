@@ -79,7 +79,7 @@ OutBranding Promos portfolio detail page of the Floração website.
                 <img class="colordisk" id="obp1" src="assets/images/colordisks/colordisk_obp1.png" />
             </div>
             <div class="col-12 col-md-6">
-                <img class="colordisk" id="obp2" src="assets/images/colordisks/colordisk_obp1.png" />
+                <img class="colordisk" id="obp2" src="assets/images/colordisks/colordisk_obp2.png" />
                 <img class="colordisk" id="obp7" src="assets/images/colordisks/colordisk_obp7.png" />
                 <img class="colordisk" id="obp8" src="assets/images/colordisks/colordisk_obp8.png" />
                 <img class="colordisk" id="obp9" src="assets/images/colordisks/colordisk_obp9.png" />
