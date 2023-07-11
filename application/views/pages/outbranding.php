@@ -8,7 +8,7 @@ OutBranding Promos portfolio detail page of the Floração website.
 <div class="detail-banner">
     <img class="banner" src="assets/images/banner_obp.png" alt=""/>
 </div>
-<div class="container bodydiv py-5 txt-light1">
+<section class="container bodydiv py-5 txt-light1">
     <h1>OutBranding Promos</h1>
     <div class="row">
         <div class="col-12 col-md-6">
@@ -46,4 +46,4 @@ OutBranding Promos portfolio detail page of the Floração website.
             </div>
         </div>
     </div>
-</div>
+</section>
