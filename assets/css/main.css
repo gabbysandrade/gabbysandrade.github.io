@@ -193,6 +193,14 @@ footer {
 .txt-shadow {
     text-shadow: 2px 2px 5px rgba(13, 74, 112, 0.5);
 }
+.overview-title {
+    font-size: 48px;
+}
+.detail-title {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
 
 /* Other Styles */
 .hr-hlf {

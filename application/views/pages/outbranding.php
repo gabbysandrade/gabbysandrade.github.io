@@ -10,7 +10,7 @@ OutBranding Promos portfolio detail page of the Floração website.
 </div>
 <section class="shade-light">
     <div class="container bodydiv py-5 txt-light1">
-        <h1>OutBranding Promos</h1>
+        <h1 class="overview-title">OutBranding Promos</h1>
         <div class="row my-4 align-items-center">
             <div class="col-12 col-md-6 mb-3">
                 <p class="overview">Now armed with a year's worth of experience with the brand and the team behind it, this second 
@@ -50,13 +50,13 @@ OutBranding Promos portfolio detail page of the Floração website.
     </div>
 </section>
 <section class="highlight-bl">
-    <div class="container bodydiv py-4 txt-dark">
+    <div class="container bodydiv py-5 txt-dark">
         <div class="row">
             <div class="col-12 col-md-6">
                 <img class="col-img" src="assets/images/detail_obp.png" alt="Comparison of the initial OutBranding Promos website redesign to the latest redesign." />
             </div>
             <div class="col-12 col-md-5 offset-md-1 text-center">
-                <h2>Hasta la vista, vectors!</h2>
+                <h2 class="detail-title">Hasta la vista, vectors!</h2>
                 <p>The previous OutBranding redesign focused on a vector-graphic style to create a cohesive design language throughout the site and speak to the fun 
                 and creative aspects of the brand.</p>
                 <p>In this redesign, we reframed the vector graphics as highlights rather than the central style in favor of product and team member photos to achieve 
