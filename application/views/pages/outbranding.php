@@ -6,7 +6,7 @@ OutBranding Promos portfolio detail page of the Floração website.
 --------------------------->
 
 <div class="detail-banner">
-    <img class="banner" src="assets/images/banner_obp.png" alt=""/>
+    <img class="banner" src="assets/images/banner_obp_rs.svg" alt=""/>
 </div>
 <section class="shade-light">
     <div class="container bodydiv py-5 txt-light1">
