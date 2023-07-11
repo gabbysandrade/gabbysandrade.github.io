@@ -101,6 +101,10 @@ mobile-first, responsive portfolio website, Floração Design.
     font-weight: 600;
 }
 
+.color-insights.row, .color-insights.col-12, .color-insights.col-md-6 {
+    height: auto;
+}
+
 .stats {
     background-color: rgba(13, 74, 112, 0.3);
     border-radius: 30px 30px 30px 30px;
@@ -137,6 +141,11 @@ textarea {
     max-width: 80px;
     text-align: center;
     padding: 10%;
+}
+
+/* Color Disk Styles */
+.colordisk {
+    max-width: 150px;
 }
 
 /* Button Styles */
