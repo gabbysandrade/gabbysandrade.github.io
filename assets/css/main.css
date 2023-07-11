@@ -91,8 +91,9 @@ mobile-first, responsive portfolio website, Floração Design.
     color:rgb(13, 74, 112);
 }
 
-.detail-banner {
+#detail-banner-obp {
     max-height: 400px;
+    background-image: url(assets/images/banner_obp.png) cover;
 }
 
 .stats {
@@ -123,7 +124,7 @@ textarea {
     border-radius: 0 0 0 115px;
 }
 
-#abtimg, .col-img, .palettebar, .stat-icon, .banner {
+#abtimg, .col-img, .palettebar, .stat-icon {
     width: 100%;
 }
 
