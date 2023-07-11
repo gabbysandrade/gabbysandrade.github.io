@@ -46,7 +46,7 @@ home page of the Floração website.
     <section id="contact" class="text-center py-5">
         <div class="row align-items-center">
             <div class="col-3">
-                <img class="cta_img" src="assets/images/ConsultationCTA1.png" alt="" />
+                <img class="col-img" src="assets/images/ConsultationCTA1.png" alt="" />
             </div>
             <div class="col-6">
                 <h2 class="txt-light1">Ready to hit refresh on your website?</h2>
@@ -54,7 +54,7 @@ home page of the Floração website.
                 <a class="btn btn-outline-light btn-lg mt-4" href="https://calendly.com/floracao/consultation">schedule consultation</a>
             </div>
             <div class="col-3">
-                <img class="cta_img" src="assets/images/ConsultationCTA2.png" alt="" />
+                <img class="col-img" src="assets/images/ConsultationCTA2.png" alt="" />
             </div>
         </div>
     </section>
