@@ -110,6 +110,11 @@ mobile-first, responsive portfolio website, Floração Design.
     border-radius: 30px 30px 30px 30px;
 }
 
+.diskholder {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 /* Form Styles */
 #formdiv {
     border:7px solid rgb(13, 74, 112);
@@ -143,7 +148,6 @@ textarea {
     padding: 10%;
 }
 
-/* Color Disk Styles */
 .colordisk {
     max-width: 15%;
     padding-left: 2%;
