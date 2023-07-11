@@ -11,8 +11,8 @@ OutBranding Promos portfolio detail page of the Floração website.
 <section class="shade-light">
     <div class="container bodydiv py-5 txt-light1">
         <h1>OutBranding Promos</h1>
-        <div class="row align-items-center">
-            <div class="col-12 col-md-6">
+        <div class="row my-4 align-items-center">
+            <div class="col-12 col-md-6 mb-3">
                 <p class="overview">Now armed with a year's worth of experience with the brand and the team behind it, this second 
                 redesign of the OutBranding Promos website was a complete departure stylistically from the redesign completed when I 
                 was first brought onto the team. OutBranding Promos specializes in a concierge, individualized experience for every 
@@ -20,7 +20,7 @@ OutBranding Promos portfolio detail page of the Floração website.
                 perspectives, the key was to engender as many opportunities for connection  as possible between users and the team 
                 members behind the brand.</p>
             </div>
-            <div class="col-12 col-md-6 p-3 stats">
+            <div class="col-12 col-md-4 offset-md-2 mb-3 p-3 stats">
                 <div class="row align-items-center">
                     <div class="col-3">
                         <img class="stat-icon" src="assets/images/calendar_icon.png" alt="Publish Date"/>
