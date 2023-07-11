@@ -50,12 +50,12 @@ OutBranding Promos portfolio detail page of the Floração website.
     </div>
 </section>
 <section class="highlight-bl">
-    <div class="container bodydiv py-3 txt-dark">
-        <div class="row align-items-center">
+    <div class="container bodydiv py-4 txt-dark">
+        <div class="row">
             <div class="col-12 col-md-6">
                 <img class="col-img" src="assets/images/detail_obp.png" alt="Comparison of the initial OutBranding Promos website redesign to the latest redesign." />
             </div>
-            <div class="col-12 col-md-6 text-center">
+            <div class="col-12 col-md-5 offset-md-1 text-center">
                 <h2>Hasta la vista, vectors!</h2>
                 <p>The previous OutBranding redesign focused on a vector-graphic style to create a cohesive design language throughout the site and speak to the fun 
                 and creative aspects of the brand.</p>
