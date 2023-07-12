@@ -149,9 +149,7 @@ textarea {
 }
 
 .colordisk {
-    max-width: 15%;
-    padding-left: 2%;
-    padding-right: 2%;
+    width: 150px;
 }
 
 /* Button Styles */
