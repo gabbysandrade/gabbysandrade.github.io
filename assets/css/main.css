@@ -239,7 +239,7 @@ footer {
 
 .custom-popover {
     --bs-popover-border-color: #E0CD1A;
-    --bs-popover-header-bg: #93C7E7;
+    --bs-popover-header-bg: rgb(13, 74, 112);
     --bs-popover-header-color: rgba(233, 247, 255, 0.9);
     --bs-popover-body-color: rgb(13, 74, 112);
   }
