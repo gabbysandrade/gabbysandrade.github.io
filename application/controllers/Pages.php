@@ -15,14 +15,16 @@ class Pages extends CI_Controller {
         }
 
         $data['title'] = ucfirst($page); // Capitalize the first letter
-        $data['navabt'] = '#about';
-        $data['navcnt'] = '#contact';
         $data['navport'] = 'portfolio';
 
         if ($page == 'home') {
+            $data['navabt'] = '#about';
+            $data['navcnt'] = '#contact';
             $data['jslink'] = 'assets/js/main.js';
         }
         else {
+            $data['navabt'] = '/#about';
+            $data['navcnt'] = '/#contact';
             $data['jslink'] = 'assets/js/detail.js';
         }
 

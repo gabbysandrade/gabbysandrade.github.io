@@ -21,7 +21,7 @@ class Portfolio extends CI_Controller {
 
         $data['title'] = 'Portfolio';
         $data['navabt'] = '/#about';
-        $data['navcnt'] = '/#contact-form';
+        $data['navcnt'] = '/#contact';
         $data['navport'] = 'portfolio';
         $data['jslink'] = 'assets/js/folio.js';
 
