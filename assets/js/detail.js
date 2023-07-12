@@ -29,5 +29,9 @@ $(document).ready(function(){
             // Remove active class from home nav link
             $("#navindx").removeClass("active");
             break;
-    }   
+    } 
+    
+    // Initiate popovers
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
 });
