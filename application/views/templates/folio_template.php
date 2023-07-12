@@ -17,7 +17,7 @@ of the Floração website.
             <p class="card-text">{description}</p>
         </div>
         <div class="card-footer d-flex justify-content-center">
-            <a class="btn btn-primary mx-auto" href="{crdlink}" target="_blank"> {btnlabel} </a>
+            <a class="btn btn-primary mx-auto" href="{crdlink}" target="{target}"> {btnlabel} </a>
         </div>
     </div>
 </div>
