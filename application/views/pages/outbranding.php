@@ -47,7 +47,7 @@ OutBranding Promos portfolio detail page of the Floração website.
                 </div>
             </div>
         </div>
-        <a class="btn btn-outline-light btn-lg" href="https://outbranding.com/">view site</a>
+        <a class="btn btn-outline-light btn-lg" href="https://outbranding.com/" target="_blank">view site</a>
     </div>
 </section>
 <section class="highlight-bl">
