@@ -18,7 +18,13 @@ class Pages extends CI_Controller {
         $data['navabt'] = '#about';
         $data['navcnt'] = '#contact';
         $data['navport'] = 'portfolio';
-        $data['jslink'] = 'assets/js/main.js';
+
+        if ($page == 'home') {
+            $data['jslink'] = 'assets/js/main.js';
+        }
+        else {
+            $data['jslink'] = 'assets/js/detail.js';
+        }
 
         $this->load->view('templates/header', $data);
         $this->load->view('pages/'.$page, $data);
