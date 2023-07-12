@@ -144,6 +144,7 @@ textarea {
 
 .stat-icon {
     max-width: 80px;
+    width: 100%;
     text-align: center;
     padding: 10%;
 }
