@@ -50,3 +50,21 @@ H&H Tax Services Texas portfolio detail page of the Floração website.
         <a class="btn btn-outline-light btn-lg" href="https://hhtaxservice1040.com/" target="_blank">view site</a>
     </div>
 </section>
+<section class="highlight-bl">
+    <div class="container bodydiv py-5 txt-dark">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-6">
+                <img class="col-img" src="assets/images/detail_hh.png" alt="Images illustrating the design process for the logo." />
+            </div>
+            <div class="col-12 col-md-5 offset-md-1 text-center detail-text">
+                <h2 class="detail-title">An iterative conversation</h2>
+                <p>One of the most important aspects to me in the development process for the H&H brand image was that it felt true to my client; 
+                that is why an iterative process was crucial for the development of the H&H Tax Services Texas logo.</p>
+                <p>Inspired by a flyer from a previous marketing campaign, the design of this logo was a revolving cycle of design iterations, 
+                client feedback, and design refinements. The conversations around its design also informed many of the design decisions for other 
+                components of the website. Ultimately, the logo and the process of its creation became one of my client's favorite components of 
+                this project.</p>
+            </div>
+        </div>
+    </div>
+</section>
