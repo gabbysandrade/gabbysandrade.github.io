@@ -91,30 +91,6 @@ mobile-first, responsive portfolio website, Floração Design.
     color:rgb(13, 74, 112);
 }
 
-.detail-banner {
-    height: auto;
-    overflow: hidden;
-}
-
-.overview {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.color-insights.row, .color-insights.col-12, .color-insights.col-md-6 {
-    height: auto;
-}
-
-.stats {
-    background-color: rgba(13, 74, 112, 0.3);
-    border-radius: 30px 30px 30px 30px;
-}
-
-.diskholder {
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 /* Form Styles */
 #formdiv {
     border:7px solid rgb(13, 74, 112);
@@ -138,27 +114,10 @@ textarea {
     border-radius: 0 0 0 115px;
 }
 
-#abtimg, .col-img, .palettebar, .banner{
+#abtimg {
     width: 100%;
 }
 
-.stat-icon {
-    max-width: 80px;
-    width: 100%;
-    text-align: center;
-    padding: 10%;
-}
-
-.colordisk {
-    width: 33%;
-    height: 33%;
-    padding: 3%;
-    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-}
-
-.colordisk:hover {
-    transform: scale(1.05);
-}
 
 /* Button Styles */
 .btn {
@@ -214,18 +173,7 @@ footer {
 .txt-shadow {
     text-shadow: 2px 2px 5px rgba(13, 74, 112, 0.5);
 }
-.overview-title {
-    font-size: 48px;
-}
-.detail-title {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 3%;
-}
 
-.detail-text p {
-    font-size: 18px;
-}
 
 /* Other Styles */
 .hr-hlf {
@@ -238,12 +186,6 @@ footer {
     display: none;
 }
 
-.custom-popover {
-    --bs-popover-border-color: #E0CD1A;
-    --bs-popover-header-bg: rgb(13, 74, 112);
-    --bs-popover-header-color: rgba(233, 247, 255, 0.9);
-    --bs-popover-body-color: rgb(13, 74, 112);
-  }
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
