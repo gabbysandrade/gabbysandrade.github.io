@@ -68,3 +68,8 @@ H&H Tax Services Texas portfolio detail page of the Floração website.
         </div>
     </div>
 </section>
+<section class="shade-light color-insights">
+    <div class="container bodydiv py-5 txt-light1 text-center">
+        <h2 class="overview-title">Color Insights</h2>
+    </div>
+</section>
