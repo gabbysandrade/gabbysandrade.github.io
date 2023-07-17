@@ -118,6 +118,10 @@ pages of the Floração website.
     transform: scale(1.05);
 }
 
+.hhcolor {
+    position: absolute;
+}
+
 /* Button Styles */
 .btn {
     font-variant: small-caps;
