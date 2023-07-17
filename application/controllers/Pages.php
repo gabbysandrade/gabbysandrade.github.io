@@ -20,11 +20,13 @@ class Pages extends CI_Controller {
         if ($page == 'home') {
             $data['navabt'] = '#about';
             $data['navcnt'] = '#contact';
+            $data['css'] = 'assets/css/main.css';
             $data['jslink'] = 'assets/js/main.js';
         }
         else {
             $data['navabt'] = '/#about';
             $data['navcnt'] = '/#contact';
+            $data['css'] = 'assets/css/detail.css';
             $data['jslink'] = 'assets/js/detail.js';
         }
 
