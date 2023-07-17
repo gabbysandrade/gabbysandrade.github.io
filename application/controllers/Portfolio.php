@@ -23,6 +23,7 @@ class Portfolio extends CI_Controller {
         $data['navabt'] = '/#about';
         $data['navcnt'] = '/#contact';
         $data['navport'] = 'portfolio';
+        $data['css'] = 'assets/css/main.css';
         $data['jslink'] = 'assets/js/folio.js';
 
         // Fetch portfolio from model
