@@ -107,7 +107,14 @@ pages of the Floração website.
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 }
 
-.colordisk:hover {
+.colordisk-md {
+    width: 25%;
+    height: 25%;
+    padding: 3%;
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+
+.colordisk:hover, .colordisk-md:hover {
     transform: scale(1.05);
 }
 
@@ -150,7 +157,6 @@ footer {
 }
 
 /* Other Styles */
-
 .hidden {
     display: none;
 }
