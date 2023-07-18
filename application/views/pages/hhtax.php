@@ -72,22 +72,22 @@ H&H Tax Services Texas portfolio detail page of the Floração website.
     <div class="container bodydiv py-5 txt-light1 text-center">
         <h2 class="overview-title">Color Insights</h2>
         <div class="diskholder">
-            <img class="colordisk-md mx-auto" id="hh1" src="assets/images/colordisks/colordisk_hh1.png" 
+            <img class="hhcolor colordisk-md mx-auto" id="hh1" src="assets/images/colordisks/colordisk_hh1.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#004AAD" data-bs-content="Used in the logo and links."/>
-            <img class="colordisk-md mx-auto" id="hh2" src="assets/images/colordisks/colordisk_hh2.png" 
+            <img class="hhcolor colordisk-md mx-auto" id="hh2" src="assets/images/colordisks/colordisk_hh2.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#002F6E" data-bs-content="Used in navbar background, buttons, and citations."/>
-            <img class="colordisk-md mx-auto" id="hh3" src="assets/images/colordisks/colordisk_hh3.png" 
+            <img class="hhcolor colordisk-md mx-auto" id="hh3" src="assets/images/colordisks/colordisk_hh3.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#001E46" data-bs-content="Used in backgrounds and text."/>
-            <img class="colordisk-md mx-auto" id="hh4" src="assets/images/colordisks/colordisk_hh4.png" 
+            <img class="hhcolor colordisk-md mx-auto" id="hh4" src="assets/images/colordisks/colordisk_hh4.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#DDE7F4" data-bs-content="Used in horizontal rules and aside backgrounds."/>
-            <img id="hhlogo" src="assets/images/hhlogo.png" alt="H&H Tax Service Texas Logo" />
-            <img class="colordisk-md mx-auto" id="hh5" src="assets/images/colordisks/colordisk_hh5.png" 
+            <img class="hhcolor" id="hhlogo" src="assets/images/hhlogo.png" alt="H&H Tax Service Texas Logo" />
+            <img class="hhcolor colordisk-md mx-auto" id="hh5" src="assets/images/colordisks/colordisk_hh5.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#B20E08" data-bs-content="Used in the logo, checklist markers, and horizontal rules."/>
-            <img class="colordisk-md mx-auto" id="hh6" src="assets/images/colordisks/colordisk_hh6.png" 
+            <img class="hhcolor colordisk-md mx-auto" id="hh6" src="assets/images/colordisks/colordisk_hh6.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#720905" data-bs-content="Used in borders and buttons."/>
-            <img class="colordisk-md mx-auto" id="hh7" src="assets/images/colordisks/colordisk_hh7.png" 
+            <img class="hhcolor colordisk-md mx-auto" id="hh7" src="assets/images/colordisks/colordisk_hh7.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#CD6561" data-bs-content="Used in subheadings and as a navbar accent."/>
-            <img class="colordisk-md mx-auto" id="hh8" src="assets/images/colordisks/colordisk_hh8.png" 
+            <img class="hhcolor colordisk-md mx-auto" id="hh8" src="assets/images/colordisks/colordisk_hh8.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#FFFFFF" data-bs-content="Used in the logo and with transparency for text on dark backgrounds."/>
         </div>
     </div>
