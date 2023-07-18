@@ -79,7 +79,7 @@ H&H Tax Services Texas portfolio detail page of the Floração website.
             <img class="colordisk-md mx-auto" id="hh3" src="assets/images/colordisks/colordisk_hh3.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#001E46" data-bs-content="Used in backgrounds and text."/>
             <img class="colordisk-md mx-auto" id="hh4" src="assets/images/colordisks/colordisk_hh4.png" 
-            data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#DDE7F4" data-bs-content="Used in horizontal rules and aside background."/>
+            data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#DDE7F4" data-bs-content="Used in horizontal rules and aside backgrounds."/>
             <img id="hhlogo" src="assets/images/hhlogo.png" alt="H&H Tax Service Texas Logo" />
             <img class="colordisk-md mx-auto" id="hh5" src="assets/images/colordisks/colordisk_hh5.png" 
             data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#B20E08" data-bs-content="Used in the logo, checklist markers, and horizontal rules."/>
