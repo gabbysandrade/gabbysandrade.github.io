@@ -86,6 +86,7 @@ pages of the Floração website.
 .diskholder {
     margin-top: 5%;
     margin-bottom: 5%;
+    min-height: 300px;
 }
 
 /* Image Styles */
@@ -119,6 +120,10 @@ pages of the Floração website.
 
 .hhcolor {
     position: absolute;
+}
+
+#hhlogo {
+    width: 25%;
 }
 
 /* Button Styles */
