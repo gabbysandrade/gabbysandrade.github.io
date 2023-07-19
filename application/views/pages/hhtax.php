@@ -73,10 +73,10 @@ H&H Tax Services Texas portfolio detail page of the Floração website.
         <h2 class="overview-title">Color Insights</h2>
     </div>
     <div class="row align-items-center">
-        <div class="col-0 col-md-2">
+        <div class="col-3 sm-hid">
             <img class="col-img" src="assets/images/hhdecor1.png" />
         </div>
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-6">
             <div id="hhdisks" class="diskholder mx-auto">
                 <img class="hhcolor colordisk-md" id="hh1" src="assets/images/colordisks/colordisk_hh1.png" 
                 data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#004AAD" data-bs-content="Used in the logo and links."/>
@@ -97,7 +97,7 @@ H&H Tax Services Texas portfolio detail page of the Floração website.
                 data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#FFFFFF" data-bs-content="Used in the logo and with transparency for text on dark backgrounds."/>
             </div>
         </div>
-        <div class="col-0 col-md-2">
+        <div class="col-3 sm-hid">
             <img class="col-img" src="assets/images/hhdecor2.png" />
         </div>
     <div class="sp-100">

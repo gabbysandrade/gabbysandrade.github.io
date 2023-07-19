@@ -99,6 +99,10 @@ pages of the Floração website.
     height: 100px;
 }
 
+.sm-hid {
+    display: none;
+}
+
 /* Image Styles */
 .col-img, .palettebar, .banner{
     width: 100%;
@@ -235,5 +239,8 @@ footer {
 @media only screen and (min-width: 768px) {
     #navinner {
         width: 80%;
+    }
+    .sm-hid {
+        display: block;
     }
 }
