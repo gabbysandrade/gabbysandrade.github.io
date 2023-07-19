@@ -92,6 +92,7 @@ pages of the Floração website.
 #hhdisks {
     width: 360px;
     height: 360px;
+    margin-bottom: 0;
 }
 
 /* Image Styles */
@@ -132,6 +133,48 @@ pages of the Floração website.
 
 .hhcolor {
     position: absolute;
+}
+
+/* Color Disk Positioning */
+
+#hh1 {
+    top: 140px;
+    left: 0px;
+}
+
+#hh2 {
+    top: 30px;
+    left: 25px;
+}
+
+#hh3 {
+    top: 0px;
+    left: 140px;
+}
+
+#hh4 {
+    bottom: 30px;
+    left: 25px;
+}
+
+#hh5 {
+    top: 140px;
+    right: 0px;
+}
+
+#hh6 {
+    bottom: 30px;
+    left: 258px;
+}
+
+#hh7 {
+    bottom: 0px;
+    left: 140px;
+}
+
+#hh8 {
+    top: 30px;
+    left: 258px;
 }
 
 /* Button Styles */
