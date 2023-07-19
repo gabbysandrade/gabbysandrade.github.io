@@ -135,7 +135,7 @@ pages of the Floração website.
 }
 
 #obplogo {
-    width: 300px;
+    width: 350px;
     margin-left: auto;
     margin-right: auto;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
