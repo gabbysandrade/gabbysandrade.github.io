@@ -114,7 +114,7 @@ textarea {
     border-radius: 0 0 0 115px;
 }
 
-#abtimg {
+#abtimg, .col-img {
     width: 100%;
 }
 
