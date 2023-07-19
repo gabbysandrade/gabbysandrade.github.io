@@ -91,4 +91,6 @@ H&H Tax Services Texas portfolio detail page of the Floração website.
         <img class="hhcolor colordisk-md" id="hh8" src="assets/images/colordisks/colordisk_hh8.png" 
         data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#FFFFFF" data-bs-content="Used in the logo and with transparency for text on dark backgrounds."/>
     </div>
+    <div class="sp-100">
+    </div>
 </section>

@@ -95,6 +95,10 @@ pages of the Floração website.
     margin-bottom: 0;
 }
 
+.sp-100 {
+    height: 100px;
+}
+
 /* Image Styles */
 .col-img, .palettebar, .banner{
     width: 100%;
