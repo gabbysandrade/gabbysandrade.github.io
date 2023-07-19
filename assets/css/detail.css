@@ -86,8 +86,12 @@ pages of the Floração website.
 .diskholder {
     margin-top: 5%;
     margin-bottom: 5%;
-    min-height: 450px;
     position: relative;
+}
+
+#hhdisks {
+    width: 360px;
+    height: 360px;
 }
 
 /* Image Styles */
@@ -110,19 +114,16 @@ pages of the Floração website.
 }
 
 .colordisk-md {
-    width: 15%;
-    min-width: 60px;
+    width: 80px;
     padding: 3%;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 }
 
 #hhlogo {
-    width: 20%;
-    min-width: 100px;
-    max-width: 250px;
+    width: 200px;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
-    top: 25%;
-    left: 40%;
+    top: 80px;
+    left: 80px;
 }
 
 .colordisk:hover, .colordisk-md:hover, #hhlogo:hover {
