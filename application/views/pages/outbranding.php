@@ -88,13 +88,13 @@ OutBranding Promos portfolio detail page of the Floração website.
             </div>
             <div class="row align-items-center">
                 <img class="colordisk" id="obp2" src="assets/images/colordisks/colordisk_obp2.png" 
-                data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#0074C6" data-bs-content="Used in logo, headings, buttons, links, and backgrounds."/>
+                data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-custom-class="custom-popover" data-bs-title="#0074C6" data-bs-content="Used in logo, headings, buttons, links, and backgrounds."/>
                 <img class="colordisk mx-auto" id="obp7" src="assets/images/colordisks/colordisk_obp7.png" 
-                data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-custom-class="custom-popover" data-bs-title="#024E84" data-bs-content="Used in headings, button hovers, paragraph text, backgrounds, and graphics."/>
+                data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-custom-class="custom-popover" data-bs-title="#024E84" data-bs-content="Used in headings, button hovers, paragraph text, backgrounds, and graphics."/>
                 <img class="colordisk" id="obp8" src="assets/images/colordisks/colordisk_obp8.png" 
-                data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-custom-class="custom-popover" data-bs-title="#2E87C6" data-bs-content="Used in backgrounds and as an accent color in graphics."/>
+                data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-custom-class="custom-popover" data-bs-title="#2E87C6" data-bs-content="Used in backgrounds and as an accent color in graphics."/>
                 <img class="colordisk" id="obp9" src="assets/images/colordisks/colordisk_obp9.png" 
-                data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-custom-class="custom-popover" data-bs-title="#69B0E1" data-bs-content="Used in toggles and as an accent color in graphics."/>
+                data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-custom-class="custom-popover" data-bs-title="#69B0E1" data-bs-content="Used in toggles and as an accent color in graphics."/>
                 <img class="colordisk mx-auto" id="obp10" src="assets/images/colordisks/colordisk_obp10.png" 
                 data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-custom-class="custom-popover" data-bs-title="#D2E8F8" data-bs-content="Used as a background or highlight color in graphics."/>
             </div>
