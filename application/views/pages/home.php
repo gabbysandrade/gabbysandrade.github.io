@@ -51,7 +51,7 @@ home page of the Floração website.
             <div class="col-6">
                 <h2 class="txt-light1">Ready to hit refresh on your website?</h2>
                 <p class="txt-light1">Click the button below to schedule a free consultation for my web services.</p>
-                <a class="btn btn-outline-light btn-lg mt-4" href="https://calendly.com/floracao/consultation">schedule consultation</a>
+                <a class="btn btn-outline-light btn-lg mt-4" href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/floracao/consultation?primary_color=2699e0'});return false;">schedule consultation</a>
             </div>
             <div class="col-3">
                 <img class="col-img" src="assets/images/ConsultationCTA2.png" alt="" />
